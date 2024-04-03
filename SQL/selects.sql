@@ -30,6 +30,11 @@ from apis
 inner join api_endpoints on apis.id  = api_endpoints.api_id  
 inner join api_responses  on api_responses.id= api_endpoints.api_responses_id  
 
-
+-- RETORNO POR TAGS
+SELECT a.*
+FROM apis.apis a
+INNER JOIN apis.api_tags at ON a.id = at.api_id
+INNER JOIN apis.tags t ON at.tag_id = t.id
+WHERE t.name = 'nome_da_tag';
 
 

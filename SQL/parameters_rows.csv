@@ -1,0 +1,1280 @@
+id,name,type,formart,description
+277,$format,texto,,Tipo de conteúdo que será retornado
+278,$select,texto,,Propriedades que serão retornadas
+279,$filter,texto,,Filtro de seleção de entidades. e.g. Nome eq João. Clique aqui para as opções de operadores e funções.
+280,$orderby,texto,,"Propriedades para ordenação das entidades. e.g. Nome asc, Idade desc"
+281,$skip,inteiro,,Índice (maior ou igual a zero) da primeira entidade que será retornada
+282,$top,inteiro,,Número máximo (maior que zero) de entidades que serão retornadas
+283,dataBase,texto,MM-DD-YYYY,"Data base, no formato MM-DD-YYYY"
+284,dataCotacao,texto,MM-DD-AAAA,Data da cotação - informar no padrão MM-DD-AAAA
+285,dataInicial,texto,MM-DD-AAAA,Data de início do período de cotação - informar no padrão MM-DD-AAAA
+286,dataFinalCotacao,texto,MM-DD-AAAA,Data de fim do período de cotação - informar no padrão MM-DD-AAAA
+287,moeda,texto,MMM: Três letras,Código texto da moeda cujas cotações e paridades serão consultadas. Formato - MMM: Três letras. Exemplo: EUR. As moedas que estão disponíveis podem ser consultadas no recurso Moedas deste mesmo conjunto de dados.
+288,codigoMoeda,texto,MMM: Três letras,Código texto da moeda cujas cotações e paridades serão consultadas. Formato - MMM: Três letras. Exemplo: EUR. As moedas que estão disponíveis podem ser consultadas no recurso Moedas deste mesmo conjunto de dados.
+289,dataInicialCotacao,texto,MM-DD-AAAA,Data de início do período de cotação - informar no padrão MM-DD-AAAA
+290,trimestre,texto,AAAAT,Os dados serão trazidos a partir do trimestre fornecido como parâmetro no formato AAAAT.
+291,data,texto,MM-DD-YYYY,"Data, no formato MM-DD-YYYY"
+292,Data,texto,AAAA-MM-DD,"Data das operações registradas no Selic, no formato AAAA-MM-DD"
+293,Ano,texto,AAAA,"Ano de registro da operações no Selic, no formato AAAA"
+294,AnoMes,inteiro,AAAAMM,Ano-Mês de referência em formato AAAAMM
+295,TipoInstituicao,inteiro,,"1 - Conglomerados Prudenciais e Instituições Independentes, 2 - Conglomerados Financeiros e Instituições Independentes, 3 - Instituições Individuais, 4 - Instituições com Operações de Câmbio"
+296,Relatorio,texto,,Número do relatório conforme a lista de relatórios disponíveis ou T para todos
+297,idIndicadorPar,inteiro,,Parâmetro opcional identificador do indicador. Valores válidos: números inteiros.
+298,situacaoIndicadorPar,inteiro,,Parâmetro opcional situação do indicador. Valores válidos: informe 3 para ATIVO ou 4 para ENCERRADO.
+299,anoBaseMetaPar,inteiro,,Parâmetro opcional ano base da meta. Valores válidos: ano com 4 dígitos.
+300,Data_inicial,texto,,Data Inical
+301,Data_final,texto,,Data Final
+302,Data Base,texto,YYYY-MM,"Data base para obtenção das informações, no formato YYYY-MM. Se não informada, é usado o mês atual."
+303,MesInicial,inteiro,,Mês inicial para consolidação das operações
+304,AnoInicial,inteiro,,Ano inicial para consolidação das operações
+305,MesFinal,inteiro,,Mês final para consolidação das operações
+306,AnoFinal,inteiro,,Ano final para consolidação das operações
+307,DataInicial,texto,,
+308,DataFinal,texto,,
+309,mes,inteiro,,Mês de ocorrência
+310,Periodo,inteiro,,Número do Periodo.Ex:1
+311,TipoPeriodo,textp,"S=Semestral, T= Trimestral",
+312,quantidade,integer,Default=5,Quantidade de relatórios a serem retornados
+313,identificadorRelatorio,String,AAAAMM,"Ano-mês que identifica o relatório de inflação, no formato AAAAMM"
+314,inicioAgenda,String,YYYY-MM-DD,"Data de referência para identificar os relatórios futuros, no formato YYYY-MM-DD."
+315,Data_base,texto,yyyy-MM-dd,
+316,Data_fim,texto,yyyy-MM-dd,
+317,Data,inteiro,AAAAMM,Ano-Mês de referência em formato AAAAMM
+318,Ano,inteiro,,Ano de contratação da operação
+319,Modalidade,texto,,Código da Modalidade
+320,CodigoGrupoConsolidado,texto,,Código do grupo consolidado para o qual as instituições serão listadas.
+321,PessoaFisicaOuJuridica,texto,F para pessoa física J para pessoa jurídica,
+322,CNPJ,texto,,CNPJ da instituição para a qual as tarifas serão listadas.
+323,CodigoServico,texto,,Código do Serviço
+324,dataCotacao,texto," MM-DD-AAAA",Data da cotação - informar no padrão MM-DD-AAAA
+325,dataInicial,texto," MM-DD-AAAA",Data de início do período de cotação - informar no padrão MM-DD-AAAA
+326,dataFinalCotacao,texto," MM-DD-AAAA",Data de fim do período de cotação - informar no padrão MM-DD-AAAA
+327,moeda,texto,MMM,Código texto da moeda cujas cotações e paridades serão consultadas. Formato - MMM: Três letras. Exemplo: EUR. As moedas que estão disponíveis podem ser consultadas no recurso Moedas deste mesmo conjunto de dados.
+328,codigoMoeda,texto,,
+329,dataInicialCotacao,texto,,
+330,Data,texto,YYYY-MM-DD,"Data base para obtenção das informações, no formato YYYY-MM-DD"
+413,co_modalidade_licitacao,Texto,,Indica qual o tipo de compra sem licitação.
+414,co_orgao,Texto,,Órgão responsável pela realização da compra sem licitação.
+415,co_orgao_superior,Texto,,Órgão Superior.
+416,co_uasg,Texto,,Númeroo da UASG responsável pela compra sem licitação.
+417,ds_fundamento_legal,Texto,,Descrição geral do fundamento legal para aquisição do objeto pretendido.
+418,ds_justificativa,Texto,,Descrição geral da justificativa para realização da compra sem licitação.
+419,ds_lei,Texto,,Lei que determina a aplicação da modalidade escolhida para o objeto pretendido.
+420,ds_objeto_licitacao,Texto,,Descrição geral do objeto da compra.
+421,dt_ano_aviso_licitacao,Texto,,Ano da compra sem licitação.
+422,dt_declaracao_dispensa,Data,,Data referente ao reconhecimento da compra feita se licitação.
+423,dt_publicacao,Data,,Data referente à publicação da compra feita sem licitação.
+424,dt_ratificacao,Data,,Data referente à ratificação da compra feita sem licitação.
+425,no_modalidade_licitacao,Texto,,Indica qual o tipo de compra sem licitação.
+426,nu_aviso_licitacao,Texto,,Número da compra correspondente a compra sem licitação.
+427,nu_inciso,Texto,,Inciso da lei escolhida anteriormente.
+428,nu_processo,Texto,,Número do processo correspondente à forma de compra sem licitação.
+429,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+430,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente.
+431,order_by,Texto,,Atributo utilizado para ordenação.
+432,qt_total_item,Texto,,Quantidade de itens da compra realizada.
+433,vr_estimado,Texto,,Valor total da compra realizada.
+434,co_conjunto_materiais,Texto,,Código do item - Material.
+435,co_servico,Texto,,Código do item - Serviço.
+436,ds_detalhada,Texto,,Descrição detalhada do item.
+437,in_material_servico,Texto,,Tipo do item.
+438,in_tipo_fornecedor_vencedor,Texto,,Tipo de fornecedor.
+439,no_conjunto_materiais,Texto,,Descrição do item conforme código selecionado.
+440,no_fornecedor_vencedor,Texto,,Nome/Razão Social do fornecedor.
+441,no_marca_material,Texto,,Descrição da marca do item.
+442,no_servico,Texto,,Descrição do item conforme código selecionado.
+443,nu_cpf_cnpj_fornecedor,Texto,,Número do CPF/CNPJ do fornecedor.
+444,id,Inteiro,,Id da Compra Sem Licitação
+445,item,Texto,,Código do item da compra.
+446,cnpj_contratada,Texto,,CNPJ da empresa contratada.
+447,cpf_contratada,Texto,,CPF da contratada.
+448,data_assinatura,Data,,Data de assinatura do contrato.
+449,data_assinatura_max,Data,,Data máxima de assinatura do contrato.
+450,data_assinatura_min,Data,,Data mínima de assinatura do contrato.
+451,data_inicio_vigencia,Data,,Data de início de vigência dos contratos.
+452,data_inicio_vigencia_max,Data,,Data máxima de início de vigência dos contratos.
+453,data_inicio_vigencia_min,Data,,Data mínima de início de vigência dos contratos.
+454,data_termino_vigencia,Data,,Data de término de vigência dos contratos.
+455,data_termino_vigencia_max,Data,,Data máxima de término de vigência dos contratos.
+456,data_termino_vigencia_min,Data,,Data mínima de término de vigência dos contratos.
+457,fundamento_legal,Texto,,Fundamento legal do processo de contratação.
+458,id_contratada,Inteiro,,Identificador único da contratada.
+459,modalidade,Inteiro,,Código da modalidade da licitação.
+460,nome_contratada,Texto,,Nome da Empresa ou da Pessoa Física contratada.
+461,numero,Inteiro,,"Campo seguido pelo número do contrato, seguido do respectivo ano."
+462,numero_aditivo,Inteiro,,Quantidade de termos aditivos de um contrato.
+463,numero_aviso,Inteiro,,Número do aviso da licitação que originou a contratação.
+464,numero_processo,Texto,,Número do processo de contratação.
+465,objeto,Texto,,"Descrição do objeto, a partir de uma descrição de item/serviço informada."
+466,origem_licitacao,Texto,,Indica a origem da licitação que originou o contrato. Valores aceitos: SISRP ou SISPP
+467,tipo_contrato,Inteiro,,Tipo de Contrato.
+468,tipo_pessoa,Texto,,Tipo da pessoa contratada: Física (PF) ou Jurídica (PJ)
+469,uasg,Inteiro,,Campo de seis dígitos que indica o código da UASG contratante.
+470,uasg_contrato,Inteiro,,
+471,valor_inicial_max,BigDecimal,,Valor inicial máximo do contrato.
+472,valor_inicial_min,BigDecimal,,Valor inicial mínimo do contrato.
+473,descricao,Texto,,Descrição do tipo de contrato.
+474,aditivo,Texto,,Id do Aditivo de Contrato
+475,apostilamento,Texto,,Id do Apostilamento de Contrato
+476,evento,BigDecimal,,Número do Evento de Contrato
+477,categoria,Texto,,Categoria (Ex.: categoria=compras)
+478,codigo_compra,Texto,,Código da compra (Ex.: codigo_compra=11540605003702019)
+479,codigo_contrato,Texto,,Código do contrato (Ex.: codigo_contrato=11540650000292019)
+480,codigo_modalidade,Texto,,"Código da modalidade (Ex.: codigo_modalidade=05, sempre 2 dígitos)"
+481,codigo_tipo,Inteiro,,Tipo do contrato (Ex.: codigo_tipo=50)
+482,data_publicacao,Data,,Data de publicação (Ex.: data_publicacao=2021-04-20)
+483,data_publicacao_max,Data,,Data máxima de publicação (Ex.: data_publicacao_max=2021-04-20)
+484,data_publicacao_min,Data,,Data mínima de publicação (Ex.: data_publicacao_min=2021-04-20)
+485,fornecedor_cnpj_cpf_idgener,Texto,,Identificador do fornecedor (Ex.: fornecedor_cnpj_cpf_idgener=04.936.559/0001-89)
+486,fornecedor_nome,Texto,,Razão social/Nome do fornecedor (Ex.: fornecedor_nome=empresa brasileira de correios e telegrafos)
+487,fornecedor_tipo,Texto,,Tipo de fornecedor (Ex.: fornecedor_tipo=juridica)
+488,informacao_complementar,Texto,,Informação complementar (Ex.: informacao_complementar=sei 0448453)
+489,licitacao_numero,Texto,,Número da licitação (Ex.: licitacao_numero=00019/2019)
+490,num_parcelas,Inteiro,,Número de parcelas (Ex.: num_parcelas=30)
+491,orgao_codigo,Inteiro,,Código SIASG do orgão contratante (Ex.: orgao_codigo=2000)
+492,orgao_nome,Texto,,Nome do orgão contratante (Ex.: orgao_nome=senado federal)
+493,processo,Texto,,Processo (Ex.: processo=50840.000439/2016-94)
+494,receita_despesa,Texto,,Tipo de contrato (Ex.: receita_despesa=despesa)
+495,tipo,Texto,,Descrição do tipo de Contrato (Ex.: tipo=Contrato)
+496,unidade_codigo,Inteiro,,Código da UASG contratante (Ex.: unidade_codigo=20001)
+497,unidade_compra,Inteiro,,Unidade compra (Ex.: unidade_compra=200005)
+574,item_servico,Texto,,Código do item de serviço do item incluído na IRP.
+498,unidade_nome,Texto,,Nome completo da UASG contratante (Ex.: unidade_nome=tribunal de contas da uniao)
+499,unidade_nome_resumido,Texto,,Sigla/Nome UASG contratante (Ex.: unidade_nome_resumido=tcu)
+500,unidade_origem_codigo,Texto,,Código da unidade de origem
+501,unidade_origem_nome,Texto,,Nome da unidade de origem
+502,valor_acumulado,BigDecimal,,Valor acumulado (Ex.: valor_acumulado=30000)
+503,valor_global,BigDecimal,,Valor global (Ex.: valor_global=3500000)
+504,valor_global_max,BigDecimal,,Valor global máximo (Ex.: valor_global_max=500000)
+505,valor_global_min,BigDecimal,,Valor global mínimo (Ex.: valor_global_min=20000)
+506,valor_inicial,BigDecimal,,Valor inicial (Ex.: valor_inicial=2000)
+507,valor_parcela,BigDecimal,,Valor da parcela (Ex.: valor_parcela=15000)
+508,vigencia_fim,Data,,Data do fim da vigência (Ex.: vigencia_fim=2021-04-20)
+509,vigencia_fim_max,Data,,Data máxima do fim da vigência (Ex.: vigencia_fim_max=2021-04-20)
+510,vigencia_fim_min,Data,,Data mínima do fim da vigência (Ex.: vigencia_fim_min=2021-04-20)
+511,vigencia_inicio,Data,,Data do início da vigência (Ex.: vigencia_inicio=2021-04-20)
+512,vigencia_inicio_max,Data,,Data máxima do início da vigência (Ex.: vigencia_inicio_max=2021-04-20)
+513,vigencia_inicio_min,Data,,Data mínima do início da vigência (Ex.: vigencia_inicio_min=2021-04-20)
+514,cronograma,Inteiro,,Id do cronograma.
+515,despesa_acessoria,Inteiro,,Id da despesa acessória.
+516,empenho,Inteiro,,Id do empenho.
+517,fatura,Inteiro,,Id da fatura.
+518,garantia,Inteiro,,Id da garantia.
+519,historico,Inteiro,,Id do histórico.
+520,item_compras_contratos,Inteiro,,Id do item.
+521,preposto,Inteiro,,Id do preposto.
+522,responsavel,Inteiro,,Id do responsavel.
+523,terceirizado,Inteiro,,Id do terceirizado.
+524,codigo_longo,Texto,,Código longo do CNAE.
+525,descricao,Texto,,Descrição do código CNAE.
+526,ativo,Booleano,,Se o fornecedor está ativo.
+527,cnpj,Texto,,CNPJ do fornecedor.
+528,cpf,Texto,,CPF do fornecedor.
+529,habilitado_licitar,Booleano,,
+530,id_cnae,Inteiro,,Identificador único do código CNAE do fornecedor.
+531,id_linha_fornecimento,Inteiro,,Identificador único de linha de fornecimento do fornecedor.
+532,id_municipio,Inteiro,,Identificador único de município no SICAF.
+533,id_natureza_juridica,Inteiro,,Identificador único da natureza jurídica do fornecedor.
+534,id_porte_empresa,Inteiro,,Identificador único do tipo da empresa do fornecedor.
+535,id_ramo_negocio,Inteiro,,Identificador único do ramo de negócio do fornecedor.
+536,id_unidade_cadastradora,Inteiro,,Identificador único da Unidade Cadastradora à qual o fornecedor está cadastrado no SICAF.
+537,nome,Texto,,Parte do nome do fornecedor.
+538,recadastrado,Booleano,,Se o fornecedor se recadastrou no Novo SICAF.
+539,tipo_pessoa,Texto,,"Tipo da pessoa, física PF ou jurídica PJ."
+540,uf,Texto,,Sigla da Unidade Federativa.
+541,codigo_siasg,Inteiro,,Chave única que identifica a linha de fornecimento no SIASG.
+542,id_fornecedor,Inteiro,,Id do Fornecedor.
+543,tipo,Texto,,Tipo da linha de fornecimento. Valores admitidos: Serviço ou Material
+544,codigo_ibge,Inteiro,,Código de identificação único de acordo com o IBGE.
+545,codigo,Texto,,Código da Natureza Jurídica.
+546,descricao,Texto,,Descrição da Natureza Jurídica.
+547,ambito_ocorrencia,Inteiro,,Código da Abrangência da sanção aplicada ao fornecedor.
+548,cnpj,Texto,,Número do CNPJ do fornecedor caso seja Pessoa Jurídica.
+549,cpf,Texto,,Número do CPF do fornecedor caso seja Pessoa Física
+550,descricao_tipo_ocorrencia,Texto,,Descrição do Tipo de Ocorrência atribuida ao fornecedor.
+551,id_fornecedor,Inteiro,,Identificador único do fornecedor
+552,id_orgao,Inteiro,,Descrição do Órgao / Entidade Sancionadora.
+553,id_prazo,Inteiro,,Código do Prazo da Ocorrência.
+554,id_tipo_ocorrencia,Inteiro,,Código do Tipo de Ocorrência atribuida ao fornecedor.
+555,id_unidade_cadastradora,Inteiro,,Identificador da UASG.
+556,impedido_licitar,Booleano,,Indica se a ocorrência gera impedimento para participar em licitações
+557,numero_processo,Texto,,Número do Processo
+558,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+559,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+560,order_by,Texto,,Atributo utilizado para ordenação
+561,tipo_pessoa,Texto,,Descrição do tipo de pessoa.
+562,valor_multa_max,BigDecimal,,Valor máximo da multa
+563,valor_multa_min,BigDecimal,,Valor mínimo da multa
+564,vigente,Texto,,Indica se a ocorrência está vigente na data atual. Valores aceitos: sim ou não.
+565,vigente_em,Data,,Indica se a ocorrência está vigente na data informada. Formato: AAAA-MM-DD
+566,id,inteiro,,
+567,cnpj,Texto,,CNPJ do Fornecedor.
+568,cpf_responsavel,Texto,,Descrição dos dados do gestor de compras responsável pela IRP.
+569,data_provavel_licitacao,Inteiro,,Data provável da licitação.
+570,data_provavel_licitacao_max,Inteiro,,Data máxima provável da licitação.
+571,data_provavel_licitacao_min,Inteiro,,Data mínima provável da licitação.
+572,item_material,Texto,,Código do item de material do item incluído na IRP.
+573,item_material_classificado,Texto,,Código da classificação do item de material incluído na IRP.
+575,item_servico_classificado,Texto,,Código da classificação do item de serviço incluído na IRP.
+576,justificativa_modalidade,Texto,,Justificativa da modalidade.
+577,modalidade_licitacao,Inteiro,,Descrição da modalidade da futura licitação da IRP.
+578,nome_responsavel,Texto,,Descrição dos dados do gestor de compras responsável pela IRP.
+579,numero_aviso,Inteiro,,Número da licitação.
+580,numero_irp,Inteiro,,"Campo com nove dígitos, dos quais quatro correspondem ao ano da IRP."
+581,objeto,Texto,,Descrição e/ou código do material/serviço de interesse na IRP.
+582,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+583,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+584,order_by,Texto,,Atributo que deve ser usado como ordenador
+585,orgao,Inteiro,,Campo de cinco dígitos que indica o código do órgão ao qual a UASG gerenciadora pertence.
+586,prazo_validade,Texto,,Descrição do prazo de validade (em meses).
+587,situacao,Texto,,Descrição da situação da IRP.
+588,tipo_licitacao,Texto,,Descrição do tipo de licitação.
+589,uasg,Inteiro,,"Campo de seis dígitos que indica o código de UASG do gerenciador, ou seja, do resposável pela licitação gerada pela IRP."
+590,uasg_municipio,Inteiro,,Código do município/UF da UASG gerenciadora da IRP.
+591,uf,Texto,,Unidade Federativa da UASG gerenciadora.
+592,id,Texto,,Identificador do Item de IRP.
+593,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+594,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+595,order_by,Texto,,Atributo que deve ser usado como ordenador
+596,id,Texto,,Identificador do IRP.
+597,item,Inteiro,,Identificador do Item de IRP.
+598,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+599,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+600,order_by,Texto,,Atributo que deve ser usado como ordenador
+601,cnpj_vencedor,Texto,,CNPJ do fornecedor vencedor do item de licitação.
+602,codigo_item_filtro,Texto,,Código do item filtro da licitação
+603,cpf_vencedor,Texto,,CPF do fornecedor vencedor do item de licitação.
+604,data_abertura_proposta,Data,,Data de abertura da proposta.
+605,data_abertura_proposta_max,Data,,Data máxima de abertura da proposta.
+606,data_abertura_proposta_min,Data,,Data mínima de abertura da proposta.
+607,data_entrega_edital,Data,,Data de entrega do edital.
+608,data_entrega_edital_max,Data,,Data máxima de entrega do edital.
+609,data_entrega_edital_min,Data,,Data mínima de entrega do edital.
+610,data_entrega_proposta,Data,,Data de entrega da proposta.
+611,data_entrega_proposta_max,Data,,Data máxima de entrega de proposta.
+612,data_entrega_proposta_min,Data,,Data mínima de entrega de proposta.
+613,data_publicacao,Data,,Data da publicação da licitação.
+614,data_publicacao_max,Data,,Data máxima da publicação da licitação.
+615,data_publicacao_min,Data,,Data mínima da publicação da licitação.
+616,endereco_entrega_edital,Texto,,Endereço de entrega do edital.
+617,funcao_responsavel,Texto,,Função do responsável pela licitação.
+618,id_fornecedor,Inteiro,,Id do Fornecedor Vencedor.
+619,item_material,Texto,,Código do item de material incluído na licitação
+620,item_material_classificacao,Texto,,Código da classificação do item de material incluído na licitação.
+621,item_servico,Texto,,Código do item de serviço incluído na licitação
+622,item_servico_classificacao,Texto,,Código da classificação do item de serviço inlcuído na licitação.
+623,modalidade,Inteiro,,Código da modalidade da licitação.
+624,nome_responsavel,Texto,,Nome do responsável pela licitação.
+625,numero_aviso,Inteiro,,Número da licitação.
+626,objeto,Texto,,Objeto da licitação.
+627,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+628,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+629,order_by,Texto,,Atributo que deve ser usado como ordenador
+630,orgao,Inteiro,,Órgão ao qual pertence a UASG da licitação.
+631,pregao_eletronico,Booleano,,Indica se o pregão é eletrônico ou não.
+632,situacao_aviso,Texto,,Situação do aviso.
+633,sustentavel,Booleano,,Definição de sustentabilidade dos itens da licitação.
+634,tipo_item,Texto,,Tipo do item da licitação (material ou serviço)
+635,uasg,Inteiro,,Código da UASG.
+636,uasg_municipio,Inteiro,,Código do município da UASG
+637,uf_uasg,Texto,,Unidade Federativa da UASG.
+638,valor_estimado_total_max,BigDecimal,,Valor máximo da soma dos valores estimados dos itens da licitação
+639,valor_estimado_total_min,BigDecimal,,Valor mínimo da soma dos valores estimados dos itens da licitação
+640,valor_homologado_total_max,BigDecimal,,Valor máximo da soma dos valores homologados dos itens da licitação
+641,valor_homologado_total_min,BigDecimal,,Valor mínimo da soma dos valores homologados dos itens da licitação
+642,id,Texto,,Identificador da licitação.
+643,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+644,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+645,order_by,Texto,,Atributo que deve ser usado como ordenador
+646,sustentavel,Booleano,,Definição de sustentabilidade do item.
+647,tipo,Texto,,Tipo do item. Valores admissíveis: material ou serviço
+648,descricao,Texto,,Descrição da modalidade de licitação.
+649,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+650,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+651,order_by,Texto,,Atributo que deve ser usado como ordenador
+652,ativo,Booleano,,Se o órgão está ativo.
+653,codigo,Texto,,Código do Órgão
+654,nome,Texto,,Descrição da modalidade de licitação.
+655,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+656,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+657,order_by,Texto,,Atributo que deve ser usado como ordenador
+658,tipo_adm,Inteiro,,Código do tipo da administração do órgão
+659,tipo_esfera,Texto,,"Código do tipo da esfera do órgão. F para Federal, E para estadual ou M para municipal."
+660,tipo_poder,Inteiro,,Código do tipo de poder do órgão
+661,modalidade,Inteiro,,Código da modalidade da licitação.
+662,numero_aviso,Inteiro,,Número da licitação.
+663,objeto,Texto,,Objeto da licitação.
+664,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+665,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+666,order_by,Texto,,Atributo que deve ser usado como ordenador
+667,pregao_eletronico,boolean,,Indica se o pregão é eletrônico ou não.
+668,situacao,Texto,,Situação da licitação.
+669,uasg,Inteiro,,Código da UASG.
+670,uasg_municipio,Inteiro,,Código do município da UASG
+671,id,Texto,,Identificador do preço praticado.
+672,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+673,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+674,order_by,Texto,,Atributo que deve ser usado como ordenador
+675,data_assinatura,Data,,Data da assinatura da licitação.
+676,data_assinatura_max,Data,,Data máxima da assinatura da licitação.
+677,data_assinatura_min,Data,,Data mínima da assinatura da licitação.
+678,data_fim_validade,Data,,Data de fim da validade da licitação.
+679,data_fim_validade_max,Data,,Data máxima de fim da validade da licitação.
+680,data_fim_validade_min,Data,,Data mínima de fim da validade da licitação.
+681,data_inicio_validade,Data,,Data de início da validade da licitação.
+682,data_inicio_validade_max,Data,,Data máxima de início da validade da licitação.
+683,data_inicio_validade_min,Data,,Data mínima de início da validade da licitação.
+684,modalidade,Inteiro,,Código da modalidade da licitação.
+685,numero_aviso,Inteiro,,Número da licitação.
+686,objeto,Texto,,Objeto da licitação.
+687,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+688,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+689,order_by,Texto,,Atributo que deve ser usado como ordenador
+690,pregao_eletronico,boolean,,Indica se o pregão é eletrônico ou não.
+691,situacao,Texto,,Situação da licitação.
+692,uasg,Inteiro,,Código da UASG.
+693,uasg_municipio,Inteiro,,Código do município da UASG
+694,id,Texto,,Id do Registro Preco
+695,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+696,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+697,order_by,Texto,,Atributo que deve ser usado como ordenador
+698,id,Texto,,Identificador do Registro de Preço.
+699,item,Inteiro,,Número do Item de Registro de Preço.
+700,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+701,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+702,order_by,Texto,,Atributo que deve ser usado como ordenador
+703,classificacao_fornecedor,Inteiro,,Classificacao do Fornecedor na Licitação por Registro de Preço.
+704,id,Texto,,Identificador do Registro de Preço.
+705,item,Inteiro,,Número do Item de Registro de Preço.
+783,item,Inteiro,,Número do Item de Registro de Preço.
+784,renegociacao,Inteiro,,Identificador da Renegociacao para o Fornecedor.
+785,id,Inteiro,,Identificador da UASG.
+706,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+707,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+708,order_by,Texto,,Atributo que deve ser usado como ordenador
+709,ativo,Booleano,,Se a UASG está ativa.
+710,cep,Texto,,CEP da UASG.
+711,cnpj,Texto,,CNPJ da UASG.
+712,id_municipio,Inteiro,,Identificador único de município no SICAF.
+713,id_orgao,Inteiro,,Órgão associado à UASG
+714,id_orgao_superior,Inteiro,,Órgão Superior
+715,nome,Texto,,Parte do nome da UASG.
+716,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+717,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+718,order_by,Texto,,Atributo que deve ser usado como ordenador
+719,unidade_cadastradora,Booleano,,Unidade Cadastradora.
+720,cnpj_vencedor,Texto,,CNPJ do fornecedor vencedor do item de licitação.
+721,codigo_item_filtro,Texto,,Código do item filtro da licitação
+722,cpf_vencedor,Texto,,CPF do fornecedor vencedor do item de licitação.
+723,data_abertura_proposta,Data,,Data de abertura da proposta.
+724,data_abertura_proposta_max,Data,,Data máxima de abertura da proposta.
+725,data_abertura_proposta_min,Data,,Data mínima de abertura da proposta.
+726,data_entrega_edital,Data,,Data de entrega do edital.
+727,data_entrega_edital_max,Data,,Data máxima de entrega do edital.
+728,data_entrega_edital_min,Data,,Data mínima de entrega do edital.
+729,data_entrega_proposta,Data,,Data de entrega da proposta.
+730,data_entrega_proposta_max,Data,,Data máxima de entrega de proposta.
+731,data_entrega_proposta_min,Data,,Data mínima de entrega de proposta.
+732,data_publicacao,Texto,,Data da publicação da licitação.
+733,data_publicacao_max,Data,,Data máxima da publicação da licitação.
+734,data_publicacao_min,Data,,Data mínima da publicação da licitação.
+735,endereco_entrega_edital,Texto,,Endereço de entrega do edital.
+736,forma_de_realizacao,Texto,,Indica se é presencial ou eletrônico (Pregão ou RDC)
+737,funcao_responsavel,Texto,,Função do responsável pela licitação.
+738,id_fornecedor,Inteiro,,Id do Fornecedor Vencedor.
+739,item_material,Texto,,Código do item de material incluído na licitação
+740,item_material_classificacao,Texto,,Código da classificação do item de material incluído na licitação.
+741,item_servico,Texto,,Código do item de serviço incluído na licitação
+742,item_servico_classificacao,Texto,,Código da classificação do item de serviço inlcuído na licitação.
+743,modalidade,Inteiro,,Código da modalidade da licitação.
+744,nome_responsavel,Texto,,Nome do responsável pela licitação.
+745,numero_aviso,Inteiro,,Número da licitação.
+746,objeto,Texto,,Objeto da licitação.
+747,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+748,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+749,order_by,Texto,,Atributo que deve ser usado como ordenador
+750,orgao,Inteiro,,Órgão ao qual pertence a UASG da licitação.
+751,situacao_aviso,Texto,,Situação do aviso.
+752,sustentavel,Booleano,,Definição de sustentabilidade dos itens da licitação.
+753,tipo_item,Texto,,Tipo do item da licitação (material ou serviço)
+754,uasg,Inteiro,,Código da UASG.
+755,uasg_municipio,Inteiro,,Código do município da UASG
+756,uf_uasg,Texto,,Unidade Federativa da UASG.
+757,valor_estimado_total_max,BigDecimal,,Valor máximo da soma dos valores estimados dos itens da licitação
+758,valor_estimado_total_min,BigDecimal,,Valor mínimo da soma dos valores estimados dos itens da licitação
+759,valor_homologado_total_max,BigDecimal,,Valor máximo da soma dos valores homologados dos itens da licitação
+760,valor_homologado_total_min,BigDecimal,,Valor mínimo da soma dos valores homologados dos itens da licitação
+761,id,Texto,,Identificador da IRP.
+762,id,Texto,,Identificador do Item de IRP.
+763,item,Inteiro,,Descrição do Item de IRP.
+764,id,Texto,,Identificador do IRP.
+765,item,Inteiro,,Código do Item de IRP.
+766,participante,Inteiro,,Código do Participante
+767,id,Texto,,Identificador único da licitação.
+768,id,Texto,,Identificador da licitação.
+769,item,Inteiro,,Código do item da licitação.
+770,id,Inteiro,,Código da modalidade de licitação.
+771,id,Inteiro,,Código do órgão.
+772,id,Texto,,Identificador do preço praticado.
+773,id,Texto,,Identificador do preço praticado.
+774,item,Inteiro,,Código do item.
+775,id,Texto,,Identificador do registro de preço.
+776,id,Texto,,Identificador do registro de preço.
+777,item,Inteiro,,Código do item.
+778,classificacao_fornecedor,Inteiro,,Classificacao do Fornecedor na Licitação por Registro de Preço.
+779,id,Texto,,Identificador do Registro de Preço.
+780,item,Inteiro,,Número do Item de Registro de Preço.
+781,classificacao_fornecedor,Inteiro,,Classificação do Fornecedor na Licitação por Registro de Preço.
+782,id,Texto,,Identificador do Registro de Preço.
+786,id,Texto,,Identificador único do RDC.
+787,co_uasg,Inteiro,,Número da UASG que registrou o aviso de licitação.
+788,ds_situacao_pregao,Texto,,Situação do pregão.
+789,ds_tipo_compra,Texto,,Tipo de Compra.
+790,ds_tipo_pregao,Texto,,Tipo de Pregão.
+791,nu_pregao,Inteiro,,Número do pregão.
+792,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+793,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+794,order_by,Texto,,Atributo utilizado para ordenação
+795,tx_objeto,Texto,,Descrição do objeto da licitação.
+796,co_uasg,Texto,,Número da UASG que registrou o aviso de licitação.
+797,ds_situacao_pregao,Texto,,Situação do pregão.
+798,ds_tipo_compra,Texto,,Tipo de Compra.
+799,ds_tipo_pregao,Texto,,Tipo de Pregão.
+800,nu_pregao,Texto,,Número do pregão.
+801,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+802,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+803,order_by,Texto,,Atributo utilizado para ordenação
+804,tx_objeto,Texto,,Descrição do objeto da licitação.
+805,co_uasg,Texto,,Número da UASG que registrou o aviso de licitação.
+806,ds_situacao_pregao,Texto,,Situação do pregão.
+807,ds_tipo_compra,Texto,,Tipo de Compra.
+808,ds_tipo_pregao,Texto,,Tipo de Pregão.
+809,nu_pregao,Texto,,Número do pregão.
+810,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+811,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+812,order_by,Texto,,Atributo utilizado para ordenação
+813,tx_objeto,Texto,,Descrição do objeto da licitação.
+814,co_uasg,Texto,,Número da UASG que registrou o aviso de licitação.
+815,ds_situacao_pregao,Texto,,Situação do pregão.
+816,ds_tipo_compra,Texto,,Tipo de Compra.
+817,ds_tipo_pregao,Texto,,Tipo de Pregão.
+818,nu_pregao,Texto,,Número do pregão.
+819,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+820,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+821,order_by,Texto,,Atributo utilizado para ordenação
+822,tx_objeto,Texto,,Descrição do objeto da licitação.
+823,co_uasg,Texto,,Número da UASG que registrou o aviso de licitação.
+824,ds_situacao_pregao,Texto,,Situação do pregão.
+825,ds_tipo_compra,Texto,,Tipo de Compra.
+826,ds_tipo_pregao,Texto,,Tipo de Pregão.
+827,nu_pregao,Texto,,Número do pregão.
+828,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+829,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+830,order_by,Texto,,Atributo utilizado para ordenação
+831,tx_objeto,Texto,,Descrição do objeto da licitação.
+832,id,Texto,,Identificador do pregão.
+833,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+834,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+835,order_by,Texto,,Atributo utilizado para ordenação
+836,id,Texto,,Id do Pregão
+837,id,Texto,,Identificador do pregão.
+838,item,Texto,,Código do item do pregão.
+839,codigo_grupo,Inteiro,,Grupo ao qual a classe está associada
+840,descricao,Texto,,Descrição da classe do material.
+841,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+842,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+843,order_by,Texto,,Atributo utilizado para ordenação
+844,descricao,Texto,,Descrição do grupo do material.
+845,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+846,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+847,order_by,Texto,,Atributo utilizado para ordenação
+848,codigo_classe,Inteiro,,Código da classe à qual está associado PDM.
+849,descricao,Texto,,Descrição do padrão descritivo de material.
+850,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+851,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+852,order_by,Texto,,Atributo utilizado para ordenação
+853,classe,Inteiro,,Código da classe do material.
+854,codigo_item,Inteiro,,Código do item de material.
+855,descricao_item,Texto,,Descrição do item de material.
+856,grupo,Inteiro,,Código do grupo do material.
+857,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+858,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+859,order_by,Texto,,Atributo utilizado para ordenação
+860,pdm,Texto,,Código do Padrão Descritivo de Material.
+861,sustentavel,Booleano,,Indicador se o item é ou não sustentável.
+862,id,Inteiro,,Código da classe do material.
+863,id,Inteiro,,Código do grupo do material.
+864,id,Texto,,Código do PDM.
+865,id,Inteiro,,Código do material.
+866,ano_plano,Inteiro,,Ano do Plano.
+867,co_grau_prioridade,Inteiro,,Codigo do Grau de Prioridade
+868,co_item,Inteiro,,Código do item.
+869,co_orgao,Inteiro,,Código do Orgão.
+870,co_orgao_superior,Inteiro,,Código do Orgão Superior.
+871,co_tipo_item,Texto,,Código do tipo do item.
+872,co_uasg,Inteiro,,Número da UASG.
+873,ds_detalhada_item,Texto,,Descrição detalhada do Item.
+874,ds_item,Texto,,Descrição do item.
+875,ds_subitem,Texto,,Descrição do Subitem.
+876,dt_estipulada_contratacao,Data,,Data estimada para contratação.
+877,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+878,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente.
+879,order_by,Texto,,Atributo utilizado para ordenação.
+880,id,Texto,,Id do Item do PGC
+881,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+882,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente.
+883,order_by,Texto,,Atributo utilizado para ordenação.
+884,descricao,Texto,,Descrição da seção.
+885,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+886,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+887,order_by,Texto,,Atributo utilizado para ordenação
+888,codigo_secao,Inteiro,,Código da Seção associada
+889,descricao,Texto,,Descrição da divisão.
+890,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+891,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+892,order_by,Texto,,Atributo utilizado para ordenação
+893,codigo_divisao,Inteiro,,Código da divisão associada.
+894,descricao,Texto,,Descrição do grupo.
+895,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+896,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+897,order_by,Texto,,Atributo utilizado para ordenação
+898,codigo_grupo,Inteiro,,Código do Grupo associado
+899,descricao,Texto,,Descrição da Classe.
+900,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+901,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+902,order_by,Texto,,Atributo utilizado para ordenação
+903,codigo_classe,Inteiro,,Código da classe associada
+904,descricao,Texto,,Descrição da subclasse.
+905,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+906,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+907,order_by,Texto,,Atributo utilizado para ordenação
+908,classe,Inteiro,,Código da classe.
+909,cpc,Inteiro,,Classificação central de produto.
+910,descricao,Texto,,Descrição do serviço.
+911,divisao,Inteiro,,Código da divisão.
+912,grupo,Inteiro,,Código do grupo.
+913,offset,Inteiro,,"Quantidade de registros ignorados a partir do início da lista de resultados ordenando pelo ID. Útil para paginar consultas que retornam mais que 500 resultados. Ex.: offset=3000, retorna até 500 registros ignorando os 3000 primeiros."
+914,order,Texto,,Atributo utilizado para indicar se ordenação é crescente ou decrescente
+915,order_by,Texto,,Atributo utilizado para ordenação
+916,secao,Inteiro,,Código da seção.
+917,subclasse,Inteiro,,Código da subclasse.
+918,id,Inteiro,,Código da seção.
+919,id,Inteiro,,Código da divisão.
+920,id,Inteiro,,Código do grupo.
+921,id,Inteiro,,Código da Classe
+922,id,Inteiro,,Código da subclasse.
+923,id,Inteiro,,Código do Serviço
+359,body,object,"{
+  ""login"": ""<nome do usuário>"",
+  ""senha"": ""<senha do usuário>""
+}",Login e senha do usuário.
+360,codigo_tipo_unidade,integer,,código do tipo de unidade
+361,codigo_uf,integer,,Filtra pelo código do estado
+362,codigo_municipio,integer,,Filtra pelo código do município
+363,status,integer,"0 , 1",Filtra estabelecimentos que possuem status ativo (código 1) ou inativo (código 0)
+364,estabelecimento_possui_centro_cirurgico,integer,"0 , 1",Filtra estabelecimentos que possuem (código 1) ou não (código 0) centro cirúrgico.
+365,estabelecimento_possui_centro_obstetrico,integer,,Filtra estabelecimentos que possuem (código 1) ou não (código 0) centro obstétrico.
+366,limit,integer,,Quantidade de itens retornados por página. Deve ser menor ou igual 20.
+367,offset,integer,,Número da página de itens que deve ser retornada.
+368,codigo_cnes,integer,,código do estabelecimento
+369,cnpj_instituicao,integer,,Filtra parâmetros pelo CNPJ da instituição
+370,uf,string,,Filtra parâmetros pelo estado da instituição
+371,ano_referencia,integer,,Filtra pelo ano de refência de coletagem do parâmetro na instituição
+372,mes_referencia,integer,,Filtra pelo mês de refência de coletagem do parâmetro na instituição
+373,codigo_municipio,string,,Filtra pelo código do município
+374,codigo_motivo_coleta,string,,Filtra pelo código de motivo da coleta
+375,codigo_param_basico,integer,,Filtra pelo código de parâmetro básico
+376,codigo_procedimento_coleta,integer,,Filtra pelo código do procedimento de coleta
+377,codigo_tipo_filtracao,integer,,Filtra pelo código do tipo de filtracao
+378,codigo_ponto_coleta,integer,,Filtra pelo código do ponto de coleta
+379,codigo_tipo_forma_abastec,integer,,Filtra pelo código do tipo de forma de abastecimento
+380,resultado_minimo,number,,Filtra valor mínimo do resultado
+381,resultado_maximo,number,,Filtra valor máximo do resultado
+382,valor_limite_deteccao_minimo,number,,Filtra valor mínimo do limite de detecção
+383,valor_limite_deteccao_maximo,number,,Filtra valor máximo do limite de detecção
+384,valor_limite_quantificacao_minimo,number,,Filtra valor mínimo do limite de quantificação
+385,valor_limite_quantificacao_maximo,number,,Filtra valor máximo do limite de quantificação
+386,semestre_referencia,integer,,Filtra pelo semestre de refência de coletagem do parâmetro na instituição
+387,tipo_forma_abastecimento,string,,Filtra pelo tipo de forma de abastecimento
+388,codigo_grupo_parametro,string,,Filtra pelo código do grupo de parâmetro
+389,codigo_tipo_abastecimento,integer,,Filtra pelo código de tipo de abastecimento
+390,codigo_tipo_ponto_coleta,integer,,Filtra pelo código de tipo de ponto de coleta
+391,codigo_tipo_analise,integer,,Filtra pelo código de tipo de analise
+392,codigo_tipo_categoria_analise,integer,,Filtra pelo código de tipo de categoria de análise
+393,resultado_minimo,number,,Filtra valor mínimo do resultado
+394,resultado_maximo,number,,Filtra valor máximo do resultado
+395,parametro,string,,Filtra pelo parâmetro
+396,valor_minimo,number,,Filtra valor mínimo
+397,valor_maximo,Number,,Filtra valor máximo
+398,codigo_tipo_monitoramento,integer,,Filtra pelo código de tipo de monitoramento
+399,codigo_tipo_amostra_analisada,integer,,Filtra pelo código do tipo da amostra
+400,codigo_solucao_abastecimento,integer,,Filtra pelo código de solucão de abastecimento
+401,idade_minima,integer,,Filtra pela idade mínima.
+402,idade_maxima,integer,,Filtra pela idade máxima.
+403,codigo_fase_vida,Number,,"Filtra pelo código de fase da vida: 1 - Menor de 6 meses, 2 - Entre 6 meses a 2 anos, 3 - Entre 2 anos a 5 ano, 4 - Entre 5 anos a 7 anos, 5 - Entre 7 anos a 10 anos, 6 - Adolescente, 7 - Adulto, 8 - Idoso"
+404,codigo_povo_comunidade,integer,,Filtra pelo código de povo da comunidade.
+405,codigo_escolaridade,integer,,"Filtra pelo código de escolaridade: 1 - Creche, 3 - Classe alfabetizada, 4 - Ensino fundamental 1ª a 4ª séries, 5 - Ensino fundamental 5ª a 8ª séries, 6 - Ensino fundamental completo, 15 - Nenhum, 99 - Sem informação"
+406,ano_mes_competencia,string,Ex.: 202301,Filtra pelo Ano/Mês da competência
+407,gestante,integer,,Filtra acompanhamentos de gestantes (código 1) ou não gestantes (código 0).
+408,uf_comite_etica_pesquisa,string,,Filtra projetos pelo estado do comitê de ética e pesquisa
+409,codigo_situacao_parecee,integer,,"Filtra projetos pela situação do parecer: 1 - Aprovado, 2 - Aprovado com Recomendação, 3 - Devolvido com Recomendação, 4 - Não aprovado, 5 - Pendente, 6 - Retirado."
+410,uf_instituicao_proponente,string,,Filtra projetos pelo estado da instituição proponente.
+411,numero_caae,string,,número do certificado de apresentação de apreciação ética (apenas dígitos)
+331,city,string,city=rio de janeiro,Localidade(s) a ser(em) buscada(s)
+332,codigo_da_estacao,string,"4 letras, ex: SBBH",Localidade(s) a ser(em) buscada(s)
+986,id,INTEGER,,O identificador numérico do evento do qual se deseja informações
+987,id,INTEGER,,O identificador numérico da entidade.
+333,codigo_da_localidade,"integer ","id da cidade, pode ser obtido pela consulta busca de localidades","O código do município ou localidade que são cobertos pelo CPTEC/INPE é representado por um número inteiro positivo, no qual recomendamos o uso do mecanismo de Busca de localidades para o levantamento desta informação.
+"
+334,latitude,float,(+/-)xx.xx,"válidos para a latitude (de 0° a 90° para norte [+] ou para sul [-], tendo como ponto de referência a linha do Equador) "
+335,longitude,float,(+/-)xxx.xx,"longitude(de 0° a 180° para leste [+] ou para oeste [-], tendo como ponto de referência o meridiano de Greenwich)"
+336,dia,"integer ",x,"O parâmetro dia também deve ser trocado, por um valor inteiro, que vai de 0 a 2; o valor do parâmetro ""0"" equivale ao dia atual, ""1"" para a previsão de ondas para amanhã e ""2"" para a previsão de depois de amanhã"
+265,id,integer,,Retorna o registro correspondente ao parâmetro
+266,serie_id,int,,Id da série
+267,abrangência,int,,Abrangência da Série. Ex: 1 - País | 2 - Região | 3 - UF | 4 - Município
+268,inicial*,date,Para periodicidade Anual YYYY | Para periodicidade YYYY-MM | Para as demais YYYY-MM-DD,Data inicial do período
+269,final*,date,Para periodicidade Anual YYYY | Para periodicidade YYYY-MM | Para as demais YYYY-MM-DD,Data Final do Período
+270,regioes,string,"A Sigla no caso de País | Região | UF. Ex: BRA | SE | RJ. O código do IBGE no caso de municípios Ex: 3304557 ",Região
+271,tema_id,int,,Id de um tema
+13,nr_cnpj_entidade,CHAR(14),00111222333344,Número do CNPJ do Ente Federativo
+14,sg_uf,CHAR(2),MG,Sigla da Unidade Federativa do Ente Federativo
+15,no_ente,VARCHAR(150) CHARACTER SET UNICODE,Itabira,Nome do Ente Federativo
+16,dt_mes,"DECIMAL(2,0)",1,Mês da Competência do Demonstrativo
+17,dt_ano,"DECIMAL(4,0)",2020,Ano da Competência do Demonstrativo
+18,no_segmeto,VARCHAR(150) CHARACTER SET UNICODE,Renda Fixa,Segmento da Aplicação
+19,tp_ativo,VARCHAR(150) CHARACTER SET UNICODE,"FI 100% títulos TN - Art. 7º, I, b",Tipo de Ativo
+20,ds_identificacao_ativo,VARCHAR(150) CHARACTER SET UNICODE,11.328.882/0001-35 - BB PREVID. RENDA FIXA IRF-M 1 TP FUNDO DE INVESTIMENTO EM COTAS,Identificação do Ativo
+272,SERCODIGO,string,,Código do metadados
+273,TEMCODIGO,int,,Código ID dos temas
+274,PAICODIGO,string,,Sigla que identifica um país
+275,TERCODIGO,string,,Código
+276,NIVNOME,string,,Nível de federação
+963,id,array[integer],,"Número(s) identificador(es) de um ou mais bloco(s), separados por vírgulas."
+964,idLegislatura,array[integer],,"Número(s) identificador(es) de uma ou mais legislatura(s), separados por vírgulas. Se presente, faz com que sejam retornados todos os blocos que existiram nessa(s) legislatura(s)."
+965,pagina,INTEGER,,"Número da página de resultados, a partir de 1, que se deseja obter com a requisição, contendo o número de itens definido pelo parâmetro itens. Se omitido, assume o valor 1."
+966,itens,INTEGER,,Número máximo de itens na página que se deseja obter com esta requisição.
+967,ordem,string,,"O sentido da ordenação: asc para A a Z ou 0 a 9, e desc para Z a A ou 9 a 0."
+968,ordenarPor,string,,"Nome do campo pelo qual a lista será ordenada: idLegislatura, id ou nome."
+969,id,INTEGER,,Número identificador do bloco de partidos.
+970,nome,string,,Parte nome parlamentar.
+971,siglaUf,array[string],,"Uma ou mais sigla(s) de unidades federativas (estados e Distrito Federal). Uma lista de siglas válidas pode ser obtida em /referencias/deputados/siglaUf. Se ausente, serão retornados deputados de todos os estados."
+972,siglaPartido,array[string],,"Uma ou mais sigla(s) de partidos aos quais sejam filiados os deputados. Para obter as siglas válidas, consulte /partidos. Atenção: partidos diferentes podem usar a mesma sigla em diferentes legislaturas!"
+973,siglaSexo,string,,"Letra que designe o gênero dos parlamentares que se deseja buscar, sendo M para masculino e F para feminino"
+974,dataInicio,string,AAAA-MM-DD,"Data de início de um intervalo de tempo, no formato AAAA-MM-DD."
+975,dataFim,string,AAAA-MM-DD,"Data de término de um intervalo de tempo, no formato AAAA-MM-DD."
+976,"id ",INTEGER,,Identificador numérico do parlamentar.
+977,ano,array[integer],,Um ou mais ano(s) de ocorrência das despesas.
+978,mes,array[integer],,Um ou mais número(s) do(s) mês(es) de ocorrência das despesas.
+979,cnpjCpfFornecedor,string,,"CNPJ de uma pessoa jurídica, ou CPF de uma pessoa física, fornecedora do produto ou serviço (apenas números)"
+980,codTipoEvento,array[integer],,Um ou mais identificador(es) numérico(s) do(s) tipo(s) de evento que se deseja obter. Os valores válidos podem ser obtidos por uma requisição a /referencias/tiposEvento.
+981,codSituacao,array[integer],,"Um ou mais identificador(es) numéricos de tipo(s) de situação de evento, separados por vírgula. Valores válidos podem ser obtidos em /referencias/situacoesEvento"
+982,codTipoOrgao,array[integer],,"Um ou mais identificador(es) numérico(s) de tipo(s) de órgão(s) realizadores dos eventos que se deseja obter, separados por vírgula. Os valores válidos podem ser obtidos em /referencias/tiposOrgao."
+983,idOrgao,array[integer],,"Um ou mais identificador(es) numérico(s) de órgão(s), separados por vírgula. Os identificadores podem ser obtidos em uma requisição a /orgaos."
+984,horaInicio,string,hh:mm,"Hora inicial de um intervalo de tempo, no formato hh:mm, em horário de Brasília."
+985,horaFim,string,hh:mm,"Hora final de um intervalo de tempo, no formato hh:mm, em horário de Brasília."
+988,id,INTEGER,,Número identificador do Grupo.
+989,id,INTEGER,,Identificador numérico de Grupo histórico.
+990,id,INTEGER,,Número(s) identificador(es) de um Membro.
+991,data,string,AAAA-MM-DD,"Uma ou mais data(s) no formato AAAA-MM-DD, separadas por vírgulas. Se este parâmetro estiver presente, a requisição retornará as informações básicas sobre as legislaturas que estavam em curso nas datas informadas."
+992,id,INTEGER,,Número da legislatura da qual se quer os dados.
+993,sigla,array[string],,"Sigla de um ou mais partido(s), separadas por vírgulas."
+994,id,INTEGER,,Id do Partido
+995,siglaTipo,array[string],,Uma ou mais sigla(s) separadas por vírgulas do(s) tipo(s) das proposições que se deseja obter. A lista de tipos e siglas existentes pode ser obtida em /referencias/proposicoes/siglaTipo
+996,numero,array[integer],,"Um ou mais número(s), separados por vírgula, oficialmente atribuídos às proposições segundo o art. 137 do Regimento Interno, como ""PL 1234/2016"""
+997,idDeputadoAutor,array[integer],,"Um ou mais números identificador(es), separados por vírgula, do(s) deputado(s) autor(es) das proposições que serão listadas. Cada número deve ser o identificador exclusivo de um parlamentar no Dados Abertos"
+998,autor,string,,Nome ou parte do nome do(s) autor(es) das proposições que se deseja obter. Deve estar entre aspas
+999,siglaPartidoAutor,array[string],,Uma ou mais sigla(s) separadas por vírgulas do(s) partido(s) a que pertençam os autores das proposições a serem listadas
+1000,idPartidoAutor,INTEGER,,"Identificador numérico no Dados Abertos do partido a que pertençam os autores das proposições que serão listadas. Esses identificadores podem ser obtidos em /partidos e são mais precisos do que as siglas, que podem ser usadas por partidos diferentes em épocas diferentes"
+1001,siglaUfAutor,array[string],,Uma ou mais sigla(s) de unidade(s) da federação (estados e Distrito Federal) pela(s) qual(quais) o(s) autor(es) das proposições selecionadas tenha(m) sido eleito(s)
+1002,keywords,array[string],,Uma ou mais palavras chaves sobre o tema a que a proposição se relaciona
+1003,tramitacaoSenado,boolean,,"Indicador booleano, com valor TRUE ou FALSE para trazer apenas proposições que já tenha tramitado no Senado"
+1004,dataApresentacaoInicio,string,AAAA-MM-DD,"Data do início do intervalo de tempo em que tenham sido apresentadas as proposições a serem listadas, no formato AAAA-MM-DD"
+1005,dataApresentacaoFim,string,AAAA-MM-DD,Data do fim do intervalo de tempo em que tenham sido apresentadas as proposições a serem listadas
+1006,codTema,array[integer],,"Código(s) numérico(s), separados por vírgulas, das áreas temáticas das proposições que serão listadas. Os temas possíveis podem ser obtidos em /referencias/proposicoes/codTema"
+1007,id,INTEGER,,Identificador numérico da proposição
+1008,id,INTEGER,,Identificador alfanumérico da entidade
+1009,idProposicao,array[integer],,"Um ou mais identificador(es) numéricos de proposições, que podem ser obtidos por meio do recurso /proposicoes. Se presente, listará as votações que tiveram a(s) proposição(ções) como objeto de votação ou que afetaram as proposições listadas."
+1010,idEvento,array[integer],,"Identificador de um ou mais evento(s) realizado(s) na Câmara, separados por vírgula, nos quais tenham sido realizadas as votações a serem listadas. Os identificadores podem ser obtidos por meio do recurso /eventos. Somente os eventos deliberativos podem ter votações. Os eventos podem ter ocorrido fo"
+1011,id,string,,Identificador alfanumérico da votação
+1012,id,INTEGER,,Identificador numérico do órgão
+1013,idTipoEvento,array[integer],,Um ou mais identificador(es) numérico(s) de tipos de evento que se deseja obter. os valores válidos podem ser obtidos por uma requisição anterior a /referencias/tiposEvento.
+1014,id,string,,Número da legislatura da qual se deseja os dados.
+1015,id,string,,ID do partido do qual se deseja os dados.
+412,sigla_estado,string,,"Informar a sigla do estado na url, no lugar do *, letras minusculas"
+924,dataInicial,string,,Data Inicial
+925,dataFinal,string,,Data Final
+926,cnpjOrgao,string,,
+927,codigoUnidadeAdministrativa,string,,
+928,usuarioId,INTEGER,,
+929,pagina,INTEGER,,
+930,tamanhoPagina,INTEGER,,
+931,codigoModalidadeContratacao,INTEGER,,
+932,codigoModoDisputa,INTEGER,,
+933,uf,string,,
+934,codigoMunicipioIbge,string,,
+935,cnpj,string,,
+936,idUsuario,INTEGER,,
+937,anoPca,INTEGER,,
+938,codigoClassificacaoSuperior,STRING,,
+1176,id,String,,ID
+1177,request body,json,,request body
+1178,nomeConjuntoDados,string,,nomeConjuntoDados
+1179,isPrivado,string,false/true,Default value : false
+1180,idOrganizacao,string,,idOrganizacao
+1181,pagina,integer($int32),,numero pagina
+1182,filtro,object,,filtro
+1183,nome,string,,nome
+21,nr_apr,VARCHAR(8) CHARACTER SET UNICODE,A2008038,Número da APR
+22,no_fundo_constituido,VARCHAR(150) CHARACTER SET UNICODE,FUNDO SOLIDÁRIO GARANTIDOR,Plano/Fundo Constituido
+23,tp_operacao,VARCHAR(150) CHARACTER SET UNICODE,Nova Aplicação em Ativo Mantido na Carteira,Tipo da Operação
+24,dt_operacao,TIMESTAMP(6),2020-08-20,Data da Operação
+25,dt_liquidacao,TIMESTAMP(6),2020-08-20,Data da Liquidação
+26,vl_quantidade,"DECIMAL(25,10)",3574755.226,Quantidade de Cotas
+27,vl_ativo,"DECIMAL(25,10)",2.79739433,Valor do Ativo
+28,vl_quantidade_antes,"DECIMAL(25,10)",71438109.63,Quantidade de Cotas Antes
+29,vl_operacao,"DECIMAL(17,2)",10000000,Valor da Operação
+30,vl_quantidade_apos,"DECIMAL(25,10)",75012864.85,Quantidade de Cotas Depois
+31,dt_mes_bimestre,"DECIMAL(2,0)",,
+32,no_segmento,VARCHAR(80) CHARACTER SET UNICODE,Renda Fixa,Segmento da Aplicação
+33,no_tipo_ativo,VARCHAR(60) CHARACTER SET UNICODE,"FI 100% títulos TN - Art. 7º, I, b",Tipo do Ativo da Aplicação
+34,pc_cmn,VARCHAR(30) CHARACTER SET UNICODE,,
+35,id_ativo,VARCHAR(50) CHARACTER SET UNICODE,,
+36,no_fundo,VARCHAR(8000) CHARACTER SET UNICODE,BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE. INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO,Razão Social do Fundo de Investimento Analisado
+37,qt_rpps,VARCHAR(8001) CHARACTER SET UNICODE,,
+38,vl_atual_ativo,VARCHAR(8001) CHARACTER SET UNICODE,,
+39,vl_total_atual,VARCHAR(8001) CHARACTER SET UNICODE,,
+40,pc_rpps,VARCHAR(8001) CHARACTER SET UNICODE,,
+41,vl_patrimonio,VARCHAR(8001) CHARACTER SET UNICODE,,
+42,pc_patrimonio,VARCHAR(8001) CHARACTER SET UNICODE,,
+43,dt_envio,TIMESTAMP(6),2021-03-31 14:15:05,Data de Envio do Demonstrativo
+44,no_objeto_contratacao,VARCHAR(50) CHARACTER SET UNICODE,Consultor de Valores Mobiliarios,Forma de Gestão dos Recursos dos RPPS
+45,dt_assinatura_contrato,TIMESTAMP(6),2018-03-31 14:15:05,Data de Assinatura do Contrato
+46,nr_prazo_vigencia,CHAR(5) CHARACTER SET UNICODE,12,Prazo de Vigencia (Meses)
+47,vl_mensal_contrato,"DECIMAL(17,2)",780.00,Valor Contratual Mensal (R$)
+48,nr_processo,VARCHAR(100) CHARACTER SET UNICODE,001/2016,Número/ Identificação do Processo Administrativo
+49,no_modalidade_licitacao,VARCHAR(50) CHARACTER SET UNICODE,Tomada de Precos,Modalidade do Procedimetno de Licitação
+50,tp_licitacao,VARCHAR(30) CHARACTER SET UNICODE,Menor Preco,Tipo de Licitação
+51,dt_registro_responsavel,TIMESTAMP(6),2019-03-31 14:15:05,Data de Registro do Responsável Técnico
+52,no_pessoa_representante,VARCHAR(150) CHARACTER SET UNICODE,Luiz Souza,Nome do Representante Legal
+53,no_pessoa_responsavel,VARCHAR(150) CHARACTER SET UNICODE,José da Silva,Nome do Responsável Técnico
+54,nr_cnpj_empresa,CHAR(14) CHARACTER SET UNICODE,30822936000169,Número do CNPJ da Instituição Credenciada
+55,no_empresa,VARCHAR(150) CHARACTER SET UNICODE,Banco do Brasil Gestão de Recursos DTVM S.A,Razão Social da Instituição Credenciada
+56,nr_cnpj_fundo,CHAR(14) CHARACTER SET UNICODE,13077415000105,Numero do CNPJ do Fundo de Investimento Analisado
+57,dt_analise,TIMESTAMP(6),2020-02-12 00:00:00,Data da Análise do Fundo do Investimento
+58,nr_norma_fundamento,VARCHAR(20) CHARACTER SET UNICODE,8,Numero do Fundamento Legal de Criação
+59,dt_norma_fundamento,TIMESTAMP(6),2012-05-08 14:15:05,Data do Fundamento Legal de Criação
+60,te_dispositivo_norma,VARCHAR(20) CHARACTER SET UNICODE,Art 1,Dispositivo do Fundamento Legal de Criação
+61,no_tipo_norma,VARCHAR(20) CHARACTER SET UNICODE,Lei,Tipo do Fundamento Legal de Criação
+62,no_pessoa,VARCHAR(150) CHARACTER SET UNICODE,José da Silva,Nome da Pessoa
+63,no_cargo,VARCHAR(50) CHARACTER SET UNICODE,Assessor Financeiro,Cargo da Pessoa
+64,tp_vinculo,VARCHAR(50) CHARACTER SET UNICODE,Servidor Efetivo,Tipo do Vínculo da Pessoa
+65,no_vinculo_representatividade,VARCHAR(50) CHARACTER SET UNICODE,Servidor,Vinculo/Representatividade da Pessoa
+66,no_orgao_entidade,VARCHAR(100) CHARACTER SET UNICODE,RPPS,Nome do Órgão/Entidade da Pessoa
+67,no_atribuicao,VARCHAR(100) CHARACTER SET UNICODE,Gestor de Recursos do RPPS,Atribuição da Pessoa
+68,no_entidade_governanca,VARCHAR(50) CHARACTER SET UNICODE,Comitê de Investimentos do RPPS,Nome Identificador da Governança
+69,te_ato_inicio_atuacao,VARCHAR(50) CHARACTER SET UNICODE,Decreto,Ato de Início da Atuação da Pessoa
+70,dt_inicio_atuacao,TIMESTAMP(6),2014-05-08 14:15:05,Data de Início de Atuação da Pessoa
+71,te_ato_fim_atuacao,VARCHAR(50) CHARACTER SET UNICODE,Decreto,Ato de Término da Atuação da Pessoa
+72,dt_fim_atuacao,TIMESTAMP(6),2020-05-08 14:15:05,Data de Término de Atuação da Pessoa
+73,no_tipo_certificacao,VARCHAR(50),CGRPPS,Tipo de Certificado da Pessoa
+74,dt_validade_certificacao,TIMESTAMP(6),2018-05-08 14:15:05,Data de Validade da Certificação da Pessoa
+75,no_entidade_certificadora,VARCHAR(5100) CHARACTER SET UNICODE,ANBIMA,Entidade Certificadora da Certificação Emitida para a Pessoa
+76,nr_cnpj_certificadora,CHAR(14) CHARACTER SET UNICODE,00111222333344,Número do CNPJ da Entidade Certificadora
+77,te_finalidade,VARCHAR(50) CHARACTER SET UNICODE,ENCERRAMENTO_MES,Finalidade do DAIR
+78,te_justificativa,VARCHAR(2000) CHARACTER SET UNICODE,Alteração e inclusão de dados,Justificativa de Finalidade do DAIR (Intermediário)
+1082,codigo,string,,Código da emenda
+79,dt_posicao,TIMESTAMP(6),2021-01-31 00:00:00,Data de Posição da Carteira
+1016,dataIdaDe,string,DD/MM/AAAA,Data de ida a partir de (DD/MM/AAAA)
+1017,dataIdaAte,string,DD/MM/AAAA,Data de ida até (DD/MM/AAAA)
+1018,dataRetornoDe,string,DD/MM/AAAA,Data de retorno a partir de (DD/MM/AAAA)
+1019,dataRetornoAte,string,DD/MM/AAAA,Data de retorno até (DD/MM/AAAA)
+1020,codigoOrgao,string,,Código do Órgão (SIAFI)
+1021,pagina,integer($int32),,"Página consultada, default value: 1"
+1022,id,integer($int32),,ID do registro
+1023,cpf,string,,CPF
+1024,codigoOrgaoSiafiOcupante,string,,Código do Órgão (SIAFI)
+1025,cpfOcupante,string,,CPF Ocupante
+1026,dataInicioOcupacao,string,DD/MM/AAAA,Data início ocupação(DD/MM/AAAA)
+1027,dataFimOcupacao,string,DD/MM/AAAA,Data fim ocupação (DD/MM/AAAA)
+1028,codigoOrgaoSiafiResponsavelGestao,string,,Código do Órgão (SIAFI)
+1029,situacao,string,,Situação Imóvel
+1030,regiao,string,,Região
+1031,cep,string,,CEP
+1032,endereco,string,,Endereço
+1033,tipoServidor,integer($int32),Civil=1 ou Militar=2,Tipo do Servidor (Civil=1 ou Militar=2)
+1034,situacaoServidor,integer($int32),"Ativo=1, Inativo=2 ou Pensionista=3","Situação do Servidor (Ativo=1, Inativo=2 ou Pensionista=3)"
+1035,cpf,string,,CPF do Servidor
+1036,nome,string,,Nome do Servidor
+1037,codigoFuncaoCargo,string,,Código da Função ou Cargo de Confiança
+1038,orgaoServidorExercicio,string,,Código Órgão Exercício (SIAPE)
+1039,orgaoServidorLotacao,string,,Código Órgão Lotação (SIAPE)
+1040,id,integer($int32),,idServidorAposentadoPensionista
+1041,mesAno,integer($int32),AAAAMM,Mês e Ano de referência (AAAAMM)
+1042,orgaoLotacao,string,,Código Órgão Lotação (SIAPE)
+1043,orgaoExercicio,string,,Código Órgão Exercício (SIAPE)
+1044,licenca,integer($int32),,Sim: 1; Não: 0
+1045,descricaoFuncao,string,,Descrição da Função
+1046,dataInicioExercicioDe,string,DD/MM/AAAA,"Data início do exercício, período inicial (DD/MM/AAAA)"
+1047,datInicioExercicioAte,string,DD/MM/AAAA,"Data início do exercício, período final (DD/MM/AAAA)"
+1048,dataFimExercicioDe,string,DD/MM/AAAA,"Data fim do exercício, período inicial (DD/MM/AAAA)"
+1049,datFimExercicioAte,string,DD/MM/AAAA,"Data fim do exercício, período final (DD/MM/AAAA)"
+1050,codigoIbge,string,,Código IBGE
+1051,codigo,string,,CPF/NIS
+1052,nis,string,,nis
+1053,anoMesReferencia,integer($int32),,anoMesReferencia
+1054,anoMesCompetencia,integer($int32),,anoMesCompetencia
+1055,codigoBeneficiario,string,,CPF/NIS Beneficiário
+1056,codigoResponsavelFamiliar,string,,CPF/NIS Responsável Familiar
+1057,nomeSiglaUF,string,,Nome ou Sigla UF
+1058,cnpj,string,,CNPJ
+1059,beneficiarioNomeFantasia,string,,Beneficiário/Nome Fantasia
+1060,codigo,string,,Código do Órgão (SIAPE)
+1061,descricaoFuncao,string,,Descrição do Órgão (SIAPE)
+1062,codigo,string,,Código do Órgão (SIAFI)
+1063,descricaoFuncao,string,,Descrição do Órgão (SIAFI)
+1064,cnpjEmitente,string,,CNPJ do emitente
+1065,codigoOrgao,string,,Código do Órgão (SIAFI)
+1066,nomeProduto,string,,Nome do produto
+1067,chaveUnicaNotaFiscal,string,,Chave única da nota fiscal
+1068,dataInicial,string,,Data de abertura inicial (DD/MM/AAAA)
+1069,dataFinal,string,,Data de abertura final (DD/MM/AAAA)
+1070,id,string,,ID do registro
+1071,codigoUG,string,,Código da Unidade Gestora
+1072,numero,string,NNNNNAAAA,Número da Licitação (NNNNNAAAA)
+1073,codigoModalidade,string,,Código da Modalidade da Licitação
+1074,processo,string,,Número do Processo
+1075,codigoEmenda,string,,Código da Emenda
+1076,numeroEmenda,string,,Número da emenda
+1077,nomeAutor,string,,Nome do Autor
+1078,tipoEmenda,string,,Tipo de emenda
+1079,ano,integer($int32),,Ano
+1080,codigoFuncao,string,,Código da função
+1081,codigoSubfuncao,string,,Código da subfunção
+1083,mesAnoInicio,string,MM/AAAA,Mês ano início (MM/AAAA)
+1084,mesAnoFim,string,MM/AAAA,Mês ano fim (MM/AAAA)
+1085,nomeFavorecido,string,,Nome Favorecido
+1086,codigoFavorecido,string,,"CNPJ / CPF / Código do favorecido
+"
+1087,tipoFavorecido,string,,Tipo de favorecido
+1088,uf,string,,Sigla UF
+1089,codigoIBGE,string,,Município
+1090,orgaoSuperior,string,,Órgão superior (código SIAFI)
+1091,orgao,string,,Órgão/Entidade vinculada (código SIAFI)
+1092,unidadeGestora,string,,Unidade gestora (código SIAFI)
+1093,ano,integer($int32),AAAA,Ano da despesa (AAAA)
+1094,funcao,string,,Função (código SIAFI)
+1095,subfuncao,string,,Subfunção (código SIAFI)
+1096,programa,string,,Programa (código SIAFI)
+1097,acao,string,,Ação (código SIAFI)
+1098,grupoDespesa,string,,Grupo Despesa (código SIAFI)
+1099,elementoDespesa,string,,Elemento Despesa (código SIAFI)
+1100,modalidadeAplicacao,string,,Modalidade de Aplicação (código SIAFI)
+1101,idPlanoOrcamentario,integer($int32),,Id Plano orçamentário
+1102,codPlanoOrcamentario,string,,Código Plano Orçamentária
+1103,descPlanoOrcamentario,string,,Descrição Plano Orçamentário
+1104,codPOIdentfAcompanhamento,string,,Identificado de acompanhamento
+1105,ano,integer($int32),,Ano
+1106,codigoDocumento,string,,Código do empenho (Unidade Gestora + Gestão + Número do documento)
+1107,"sequencial ",integer($int32),,Número sequencial do item de empenho
+1108,"fase ",integer($int32),"2 - Liquidação, 3 - Pagamento","Fase da despesa (2 - Liquidação, 3 - Pagamento)"
+1109,unidadeGestora,string,,Unidade gestora emitente (código SIAFI)
+1110,gestao,string,,Gestão (código SIAFI)
+1111,dataEmissao,string,DD/MM/AAAA,Data de emissão (DD/MM/AAAA)
+1112,codigo,string,,Código do registro
+1113,codigoPessoa,string,,"Código do Favorecido (CPF, CNPJ ou código do SIAFI)"
+1114,ug,string,,Código da unidade gestora emissora do documento
+1115,ordenacaoResultado,integer($int32),"1 - Valor Ascendente, 2 - Valor Descendente, 3 - Data Ascendente, 4 - Data Descendente","Ordenação de Resultado (1 - Valor Ascendente, 2 - Valor Descendente, 3 - Data Ascendente, 4 - Data Descendente)
+"
+1116,mesAno,integer($int32),AAAAMM,Mês e Ano (AAAAMM)
+1117,codigoOrgao,string,,Órgão (código SIAFI)
+1118,tipoTransferencia,integer($int32),,ID do Tipo de Transferência
+1119,uf,string,,Sigla UF
+1120,codigoIbge,string,,Município
+1121,"pagina ",integer($int32),,Página consultada
+1122,mesAnoLancamento,integer($int32),AAAAMM,Mês e Ano de lançamento (AAAAMM)
+1123,dataInicial,string,DD/MM/AAAA,Data referência início (DD/MM/AAAA)
+1124,dataFinal,string,DD/MM/AAAA,Data referência fim (DD/MM/AAAA)
+1125,dataUltimaLiberacaoInicial,string,DD/MM/AAAA,Data da última liberação de recurso início (DD/MM/AAAA)
+1126,dataUltimaLiberacaoFinal,string,DD/MM/AAAA,Data da última liberação de recurso fim (DD/MM/AAAA)
+1127,dataVigenciaInicial,string,DD/MM/AAAA,Data de vigência início (DD/MM/AAAA)
+1128,dataVigenciaFinal,string,DD/MM/AAAA,Data de vigência fim (DD/MM/AAAA)
+1129,convenente,string,,Convenente
+1130,tipoConvenente,string,,Tipo de Convenente
+1131,numero,string,,Número do convênio
+1132,numeroOriginal,string,,Número original do convênio
+1133,codigoOrgao,string,,Código do Órgão (SIAFI)
+1134,uf,string,,Sigla UF
+1135,codigoIBGE,string,,Município (Código IBGE)
+1136,situacao,string,,Código Situação
+1137,tipoInstrumento,string,,Código Tipo de Instrumento
+1138,funcao,string,,Código Função
+1139,subfuncao,string,,Código Subfunção
+1140,valorLiberadoDe,string,"Formato: 1.000,00","Valor liberado de (Formato: 1.000,00)"
+1141,valorLiberadoAte,string,"Formato: 1.000,00","Valor liberado até (Formato: 1.000,00)"
+1142,valorTotalDe,string,"Formato: 1.000,00","Valor total de (Formato: 1.000,00)"
+1143,valorTotalAte,string,"Formato: 1.000,00","Valor total até (Formato: 1.000,00)"
+1144,"pagina ",integer($int32),,Página consultada
+1145,numeroProcesso,string,,Número do processo
+1146,id,integer($int32),,ID do registro
+1147,dataInicial,string,DD/MM/AAAA,Data vigência início (DD/MM/AAAA)
+1148,dataFinal,string,DD/MM/AAAA,Data vigência fim (DD/MM/AAAA)
+1149,codigoOrgao,string,,Código do Órgão (SIAFI)
+1150,processo,string,,Número do processo
+1151,numero,string,,Número do contrato
+1152,"cpfCnpj ",string,,CPF/CNPJ do Fornecedor
+1153,codigoSancionado,string,,CNPJ ou CPF do Sancionado
+1154,nomeSancionado,string,,"Nome, nome fantasia ou razão social do Sancionado"
+1155,orgaoSancionador,string,,"Órgão Sancionador
+"
+1156,dataInicialSancao,string,DD/MM/AAAA,Data Inicial da Sanção (DD/MM/AAAA)
+1157,dataFinalSancao,string,DD/MM/AAAA,Data Final da Sanção (DD/MM/AAAA)
+1158,cnpjSancionado,string,,CNPJ do Sancionado
+1159,ufSancionado,string,,UF do Sancionado (sigla)
+1160,orgaoEntidade,string,,Órgão/Entidade
+1161,cpfSancionado,string,,CPF do sancionado
+1162,orgaoLotacao,string,,Órgão de lotação
+1163,dataPublicacaoInicio,string,,Data publicação início (DD/MM/AAAA)
+1164,dataPublicacaoFim,string,,Data publicação fim (DD/MM/AAAA)
+1165,situacao,string,,Situação do acordo
+1166,mesExtratoInicio,string,MM/AAAA,Mês extrato início (MM/AAAA)
+1167,mesExtratoFim,string,MM/AAAA,Mês extrato fim (MM/AAAA)
+1168,dataTransacaoInicio,string,DD/MM/AAAA,Data transação início (DD/MM/AAAA)
+1169,dataTransacaoFim,string,DD/MM/AAAA,Data transação fim (DD/MM/AAAA)
+1170,tipoCartao,integer($int32),CPGF=1 ou CPCC=2 ou CPDC=3,Tipo de cartão (CPGF=1 ou CPCC=2 ou CPDC=3)
+1171,codigoOrgao,string,,Órgão/Entidade (Código SIAFI)
+1172,cpfPortador,string,,Portador (CPF)
+1173,cpfCnpjFavorecido,string,,Favorecido (CPF/CNPJ)
+1174,valorDe,string,"####,##","Valor de (####,##)"
+1175,valorAte,string,"####,##","Valor até (####,##)"
+939,"PRONAC ",STRING,,Número do PRONAC
+940,format,STRING,,Formato de retorno
+941,limit,INTEGER,,Número de projetos a serem retornados
+942,offset,INTEGER,,Número de paginação de resultados
+943,proponente,STRING,,Nome do proponente do projeto (valor exato ou parcial)
+944,proponente_id,STRING,,id de identificacao do proponente
+945,cgccpf,STRING,,Cgc/Cpf do proponente
+946,nome,STRING,,Nome do projeto (valor exato ou parcial)
+947,area,STRING,,Código da Área do projeto
+948,segmento,STRING,,Código do Segmento do projeto
+949,UF,STRING,EE,Estado de origem
+950,ano_projeto,STRING,Formato AA,Ano em que o projeto foi apresentado em dois dígitos
+951,data_inicio,STRING,formato AAAA-MM-DD,Data de início
+952,data_termino,STRING,formato AAAA-MM-DD,Data de finalização
+953,data_inicio_min,STRING,formato AAAA-MM-DD,Data de início mínimo
+954,data_inicio_max,STRING,formato AAAA-MM-DD,Data de início máximo
+955,data_termino_min,STRING,formato AAAA-MM-DD,Data de término mínimo
+956,data_termino_max,STRING,formato AAAA-MM-DD,Data de término máximo
+957,sort,STRING,,"Ordenar a busca por um dos campos : PRONAC, ano_projeto, data_inicio, data_termino, valor_solicitado, outras_fontes, valor_captado, valor_proposta, valor_aprovado, valor_projeto. Formato: sort=CAMPO ou sort=CAMPO:asc ou ainda sort=CAMPO:desc. Padrão : ano_projeto:desc"
+958,proposta_id,STRING,,id da proposta
+959,Incentivador_id,STRING,,id de identificacao do incentivador
+960,municipio,STRING,,Cidade do incentivador (valor exato ou parcial)
+961,tipo_pessoa,STRING,,Tipo de pessoa
+962,fornecedor_id,STRING,,id de identificacao do fornecedor
+80,te_motivo_retificacao,VARCHAR(100) CHARACTER SET UNICODE,Iniciativa Própria,Motivo de Retificação
+81,te_descricao_retificacao,VARCHAR(150) CHARACTER SET UNICODE,Correção da Data da Certificação,Descrição do Motivo da Retificação (Outro)
+82,te_justicativa_retificacao,VARCHAR(2000) CHARACTER SET UNICODE,Ajuste nas disponibilidades,Justificativa da Retificação
+83,tp_instituicao,VARCHAR(50) CHARACTER SET UNICODE,,
+84,ds_descricao,VARCHAR(150) CHARACTER SET UNICODE,,
+85,dt_termo_analise,TIMESTAMP(6),,
+86,no_orgao,VARCHAR(100) CHARACTER SET UNICODE,Colegiado Deliberativo do RPPS,Nome do Órgão
+87,dt_reuniao,TIMESTAMP(6),2018-03-31 14:15:05,Data da Reunião
+88,te_local_reuniao,VARCHAR(100) CHARACTER SET UNICODE,Sala do RPPS,Local da Reunião
+89,te_principais_liberacoes,VARCHAR(2000) CHARACTER SET UNICODE,Análise e aprovação do demonstrativo trimestral.,Principais Liberações da Reunião
+90,idrubrica,INTEGER,,
+91,no_plano,CHAR(20),,
+92,nr_cnpj_orgao,"DECIMAL(14,0)",,
+93,id_rubrica,"DECIMAL(4,0)",,
+94,no_rubrica,VARCHAR(50) CHARACTER SET UNICODE,,
+95,te_rubrica,VARCHAR(400) CHARACTER SET UNICODE,,
+96,vl_rubrica,VARCHAR(8001) CHARACTER SET UNICODE,,
+97,dt_exercicio,"DECIMAL(4,0)",2019,Exercício do Demonstrativo
+98,te_situacao,VARCHAR(80) CHARACTER SET UNICODE,Documentos digitalizados enviados,Situação do Demonstrativo
+99,tp_plano,VARCHAR(30),Previdenciário,Tipo de Plano
+100,tp_massa,VARCHAR(30),Civil,Tipo de Massa
+101,nr_codigo,INTEGER,1003,Código Tipo de Norma (tabela interna)
+102,nr_base_calculo,"DECIMAL(5,0)",10101,Código Base de Cálculo (Tabela Interna)
+103,no_base_calculo,VARCHAR(200) CHARACTER SET UNICODE,Total das Remunerações de Contribuição dos Servidores Ativos,Descrição
+104,cd_comparativo,"DECIMAL(5,0)",21001,Código Tab. Interna Comparativo
+105,ds_comparativo,VARCHAR(70),Contribuição Normal - Ente Federativo,Descrição do Comparativo
+106,te_ano_avaliacao_mais_um,VARCHAR(100),15.45,Ano de Avaliação + 1
+337,ano,integer,,Número corresponde ao ano do lançamento contábil.
+338,mês,integer,,Número corresponde ao mês do lançamento contábil (1 a 12)
+339,natureza_juridica,integer,,Número correspondente a natureza jurídica do Órgão (1 - Empresa Pública; 2 - Fundação Pública; 3 - Administração Direta; 4 - Autarquia; 6 - Sociedade de Economia Mista).
+340,organizacao_n1,string,,"Número correspondente a Unidade organizacional a nível dos Ministérios e da AGU, conforme codificação SIORG."
+341,organizacao_n2,string,,"Número correspondente a Unidade organizacional a um nível abaixo dos Ministérios e da AGU, conforme codificação SIORG.."
+342,organizacao_n3,string,,"Número correspondente a Unidade organizacional a dois níveis abaixo dos Ministérios e da AGU, conforme codificação SIORG.."
+343,uf,string,,Unidade da Federação do ente da Federação interessadi ni PVL
+344,tipo_interrado,string,,Tipo de ente da Federação interessado no PVL
+345,id_ente,integer,,Código IBGE do Ente interessado.
+346,id_pleito,integer,,Código de identificação no banco de dados do PVL consultado
+347,id_ente,integer,,Código IBGE do Ente
+348,an_referencia,integer,,Exercício de  referência
+349,nr_periodo,integer,,"Bimestre de referência do relatório dentro de um exercício. Available values : 1, 2, 3, 4, 5, 6"
+350,"co_tipo_demonstrativo ",String,,"Tipo do Demonstrativo. RREO Simplificado aplica-se apenas aos municípios com menos de 50 mil habitantes que optaram pela publicação simplificada. Available values : RREO, RREO Simplificado"
+351,no_anexo,string,,"Os diversos demonstrativos do RREO são agrupados em anexos. Available values : RREO-Anexo 01, RREO-Anexo 02, RREO-Anexo 03, RREO-Anexo 04, RREO-Anexo 04 - RGPS, RREO-Anexo 04 - RPPS, RREO-Anexo 04.0 - RGPS, RREO-Anexo 04.1, RREO-Anexo 04.2, RREO-Anexo 04.3 - RGPS, RREO-Anexo 05, RREO-Anexo 06, RREO"
+352,co_esfera,string,,"Filtro de esfera M = Municípios, E = Estados e DF, U = União e C = Consórcio Available values : M, E, U, C"
+353,in_periodicidade,string,,"Periodicidade de publicação do relatório S = Semestral ou Q = quadrimestral. A periodicidade semestral aplica-se apenas aos municípios com menos de 50 mil habitantes que optaram pela publicação simplificada. A periodicidade padrão do relatório é quadrimestral. Available values : Q, S"
+354,co_poder,string,,"Código do poder E = Executivo, L = Legislativo, J = Judiciário, M = Ministério Público, D = Defensoria Pública Available values : E, L, J, M, D"
+355,me_referencia,integer,,Mês de referência da matriz
+356,co_tipo_matriz,string,,"Tipo de matriz enviada ao Siconfi: mensal ou agregada (MSCC) ou de encerramento do exercício (MSCE). Available values : MSCC, MSCE"
+357,classe_conta,integer,,"Classe de contas contábeis que recebem lançamentos de natureza patrimonial. Available values : 1, 2, 3, 4"
+358,id_tv,string,,"Os valores detalhados em uma MSC podem ser de três tipos: saldo incial (beginning_balance), saldo final (ending_balance) ou movimento (period_change). Available values : beginning_balance, period_change, ending_balance"
+107,te_ano_avaliacao_atual,VARCHAR(100),15.45,Ano de Avaliação
+108,te_ano_avaliacao_menos_um,VARCHAR(100),15.45,Ano de Avaliação - 1
+109,dt_exercicio_inicial,"DECIMAL(4,0)",2015,Exercício Inicial
+110,nr_fluxo,"DECIMAL(6,0)",121000,Código Tab. Fluxo Atuarial (Tabela Interna)
+111,no_fluxo,VARCHAR(120),Benefícios a Conceder - Contribuições do Ente,Descrição
+112,vl_projetado,VARCHAR(8000) CHARACTER SET UNICODE,960427,Projetada para Ano da Data da Avaliação
+113,vl_executado,VARCHAR(8000) CHARACTER SET UNICODE,945432.18,Valor Executado no Ano da Data da Avaliação
+114,vl_diferenca,VARCHAR(8000) CHARACTER SET UNICODE,14994.82,Valor da Diferença
+115,tp_beneficiario,VARCHAR(20) CHARACTER SET UNICODE,Servidores,Tipo de Beneficiário
+116,vl_anual_contribuicao,VARCHAR(8000) CHARACTER SET UNICODE,4993815.19,Valor Anual da Geração Atual
+117,vl_mensal_contribuicao,VARCHAR(8000) CHARACTER SET UNICODE,356336.6,Valor Mensal Estatística da População Coberta
+118,cd_plano_beneficio,"DECIMAL(6,0)",110101,Código Plano de Benefícios (Tabela Interna)
+119,no_beneficio,VARCHAR(200),Aposentadoria Por Invalidez Permanente,Benefícios
+120,vl_custo_anual_previsto,VARCHAR(8000) CHARACTER SET UNICODE,399086.25,Valor Custo Anual Previsto
+121,pc_contribuicao,"DECIMAL(15,2)",2.47,% Sobre Base de Contribuição
+122,cd_custo_normal_reparticao,"DECIMAL(6,0)",110102,Código Plano de Benefícios
+123,no_reparticao,VARCHAR(200),Pensão Por Morte de Aposentado por Invalidez,Benefícios
+124,vl_pago_dois_anos_antes,VARCHAR(8000) CHARACTER SET UNICODE,0.01,Valor Pago Dois Anos Antes do Ano da Avaliação
+125,vl_pago_um_ano_antes,VARCHAR(8000) CHARACTER SET UNICODE,1059.7,Valor Pago Um Ano Antes do Ano da Avaliação
+126,vl_pago_ano_atual,VARCHAR(8000) CHARACTER SET UNICODE,943.2,Valor Pago Ano da Avaliação
+127,vl_minimo_um_ano_apos,VARCHAR(8000) CHARACTER SET UNICODE,0.00,Valor Mínimo Próximo Ano do Ano da Avaliação
+128,vl_previsto_um_ano_apos,VARCHAR(8000) CHARACTER SET UNICODE,70921.26,Valor Previsto Próximo Ano do Ano da Avaliação
+129,cnpj_orgao,CHAR(14),11806792000102,CNPJ Órgão/Entidade
+130,cd_populacao,"DECIMAL(7,0)",3430200,Código População Coberta
+131,tp_populacao,VARCHAR(20),Aposentados,População Coberta - Descrição Nível 1
+132,no_cat_populacao,VARCHAR(100),DEMAIS SERVIDORES,População Coberta - Descrição Nível 2
+133,no_regra_enquadramento,VARCHAR(100),Compulsória,População Coberta - Descrição Nível 3
+1184,dataReferencia,path,AAAAMMDD,data de referência da agenda no formato AAAAMMDD
+1185,v,query,,	(opcional) - Versão do serviço
+1186,mes,PATH,AAAAMM,mês de referência da agenda no formato AAAAMM
+1187,codigo,path,,código do bloco parlamentar
+1188,codigo,path,,código da comissão
+1189,ativas,query,,"(opcional) para vagas ativas apenas (S). Para todas, não informe este parâmetro."
+1190,codParlamentar	,query,,(opcional) - Código do parlamentar	
+1191,siglaComissao,query,,(opcional) - Sigla da comissão
+1192,"sigla ",query,,Sigla da comissão (em maiúsculo)
+1193,agrupador,query,,(opcional) filtra apenas as tags agrupadoras (S) ou as de conteúdo simples (N)
+1194,termo,query,,(opcional) termo que se quer pesquisar no glossário
+1195,ano,query,,(opcional) - Ano da norma
+1196,complemento,query,,(opcional) - letra de complemento (somente para versão 3 ou posterior)
+1197,data,query,YYYYMMDD,	(opcional) formato (YYYYMMDD) - Data da assinatura da norma (somente para versão 3 ou posterior)
+1198,ident,query,,(opcional) - letra de identificação (somente para versão 3 ou posterior)
+1199,numero,query,,(opcional) - Número da norma
+1200,reedicao,query,,(opcional) - número sequencial e reedição (somente para versão 3 ou posterior)
+1201,seq,query,,	(opcional) - número sequencial da assinatura da norma na data (somente para versão 3 ou posterior)
+1202,tipo,query,,(opcional) - Sigla do tipo da norma
+1203,codigo,query,,Código do documento
+1204,anoseq,query,,ano da data de assinatura do documento ou sequencial
+1205,numdata	,query,,número do documento ou data da assinatura
+1206,tipo,query,,Sigla do tipo do documento
+1207,tipo,path,,"Tipo da comissão: permanente, cpi ou temporaria"
+1208,comissao,path,,Sigla da comissão
+1209,dataFim,query,AAAAMMDD,"(opcional) - Data de fim do período da pesquisa no formato AAAAMMDD. Se não for informada, dataFim = data atual"
+1210,"dataInicio        ",query,AAAAMMDD,"(opcional) - Data de início do período da pesquisa no formato AAAAMMDD. Se não for informada, dataInicio = data atual - 1 mês"
+1211,tipo,query,,	(opcional) - Sigla do tipo de identificação do documento
+1212,pagina,query,,(obrigatório) - Número da página da lista de Requerimentos. Se não informado assume 0.
+1213,tamanho,query,,(opcional) - Tamanho da página. É o número de registros retornados por página. Valor padrão 20. Valor permitido de 5 a 30.
+1214,materia	,query,,(opcional) - Código da matéria
+1215,situacao,query,," Sigla da situação atual da matéria	"
+1216,ano,query,,Ano (com 4 dígitos) da proposição
+1217,comissao,query,,Sigla da comissão
+1218,sigla,query,," Sigla do tipo de proposição"
+1219,tipo,path,,Sigla do tipo de proposição (em maiúsculo)
+1220,codPrazo,path,,Código do tipo do prazo
+1221,comissao,query,,
+1222,tipo,query,,
+1223,codigo,path,,codigoSenador
+1224,participacao,query,,"Tipo de participação: ""T"" (titular) / ""S"" (suplente) - só funciona a partir da versão 4"
+1225,uf,query,,Sigla da UF do mandato - só funciona a partir da versão 4
+1226,casa,query,,"Sigla da casa aonde ocorre o pronunciamento - SF (Senado), CD (Câmara), CN (Congresso), PR (Presidência), CR (Comissão Representativa do Congresso), AC (Assembléia Constituinte)"
+1227,dataFim,query,,Data de fim do período da pesquisa no formato AAAAMMDD
+1228,dataInicio,query,,Data de início do período da pesquisa no formato AAAAMMDD
+1229,numeroSessao,query,,Número da sessão plenária
+1230,tipoSessao,query,,Tipo da sessão plenária (veja serviço que lista os tipos de sessão)
+1231,ano,query,,Ano da matéria - retorna apenas as matérias do ano informado
+1232,numero,query,,Número da matéria - retorna apenas as matérias do número informado.
+1233,primeiro,query,,"(S ou N) - retorna apenas as matérias cujo senador é o primeiro autor, ou seja, o autor principal (S) ou apenas as que o senador é coautor (N)."
+1234,sigla,query,,Sigla da matéria - retorna apenas as matérias da sigla informada.
+1235,tramitando,query,,(S ou N) - retorna apenas as matérias que estão tramitando (S) ou apenas as que não estão (N).
+1236,comissao,query,,Sigla da comissão - retorna apenas os cargos na comissão informada.
+1237,indAtivos,query,," Se ""S"" retorna apenas os cargos atuais, se ""N"" retorna apenas os já finalizados"
+1238,legislatura,path,,Número da Legislatura
+1239,exercicio,query,,"Filtrar apenas parlamentares que entraram em exercício ""S"" (sim) ou apenas os que não entraram ""N"" (não)"
+1240,participacao,query,,"Tipo de participação: ""T"" (titular) / ""S"" (suplente)"
+1241,uf,query,,Sigla da UF do mandato - só funciona a partir da versão 4
+1242,legislaturaFim,path,,
+1243,legislaturaInicio,path,,
+1244,alteracao,query,,"Descrição do tipo de atualização (somente a partir da versão 4) - para ver a lista de tipos de atualização, acesse o serviço http://legis.senado.leg.br/dadosabertos/docs/resource_MateriaService.html#resource_MateriaService_tiposAtualizacoesXml_GET	"
+1245,ano,query,," Ano da matéria"
+1246,codAssuntoEspecifico,query,," Código do assunto específico"
+1247,codAssuntoGeral,query,,Código do assunto geral
+1248,codigo,query,," Código da matéria"
+1249,numdias,query,,Número de dias a considerar (X): matérias alteradas nos últimos X dias - X por default é 5. Há dados de até 30 dias na versão 4 e até 1 dia na versão 2.
+1250,numero,query,,Número da matéria
+1251,sigla,query,,Sigla do subtipo da matéria
+1252,termo,query,,
+1253,data,query,YYYYMMDD," formato (YYYYMMDD) - Parâmetro usado para que sejam retornadas apenas as matérias cuja última atualização é igual ou posterior à data informada"
+1254,hora,query,HHMISS,"formato (HHMISS) - Onde HH é no padrão 24 horas e MI representa os minutos, com 2 dígitos - parâmetro usado para que sejam retornadas apenas as matérias cuja hora da última atualização é igual ou posterior à hora informada. Deve ser informado apenas se a data também for informada."
+1255,numero,query,,Número da matéria
+1256,sigla,query,,Sigla do subtipo da matéria
+1257,dataref,query,"YYYYMMDD ",formato YYYYMMDD - Data de referência para filtrar tramitações
+1258,data,path,,Data da tramitação
+1259,sigla,path,," Sigla do tipo de proposição (em maiúsculo)"
+1260,comissao,query,," Sigla da comissão -> necessário para requerimentos de comissão criados a partir de 2019 (com sigla REQ)"
+1261,ano,path,,Ano (com 4 dígitos) da proposição
+1262,numero,path,,Número da proposição
+1263,ano,query,,ano da matéria
+1264,anoNorma,query,,ano da norma jurídica gerada
+1265,codigoClasse,query,,código da classificação da matéria
+1266,codigoConteudo,query,,código do conteúdo informacional da matéria
+1267,dataFimApresentacao,query,AAAAMMDD,"data de fim para pesquisa da data de apresentação da matéria, no formato AAAAMMDD"
+1268,dataInicioApresentacao,query,AAAAMMDD,"data de início para pesquisa da data de apresentação da matéria, no formato AAAAMMDD"
+1269,nomeAutor,query,,nome do autor da matéria
+1270,numero,query,,número da matéria
+1271,numeroNorma,query,,número da norma jurídica gerada
+1272,palavraChave,query,,palavra (opcional) chave para a pesquisa
+1273,sigla,query,,sigla da matéria
+1274,siglaComissaoReq,query,,sigla da comissão do requerimento - para requerimentos de comissão a partir de 2019
+1275,tipoNorma,query,,sigla do tipo da norma jurídica gerada
+1276,tramitando,query,,"indica se retorna apenas as matérias que estão tramitando (""S"") ou não (""N"")"
+1277,codigo,path,,	Código do Encontro Legislativo
+1278,data,path,AAAAMMDD,Data no formato AAAAMMDD
+1279,dataSessaoLeg,path,,
+1280,ano,path,AAAA,Ano no formato AAAA
+1281,dataSessao,path,AAAAMMDD,"Data da sessão no formato "
+1282,dataFim,path,AAAAMMDD,Data fim para as sessões da consulta no formato AAAAMMDD
+1283,dataInicio,path,AAAAMMDD,Data inicial para as sessões da consulta no formato AAAAMMDD
+1284,numeroSessao,query,,Número da sessao
+1285,siglaCasa,query,,"Sigla da casa (SF = Senado Federal, CN = Congresso Nacional)"
+1286,tipoSessao,query,,Sigla do tipo de sessão
+1287,codigoReuniao,path,,Código da reunião
+1288,parlamentar,query,,Código do parlamentar para mostrar sua participação
+1289,sigla,path,,Sigla da comissão (em maiúsculo)
+1290,tipo,path,,"Tipo do documento (pauta, pautacheia ou resultado)"
+1291,idReuniao,path,,Código da Reunião (Reunião de Comissão ou outro colegiado)
+1292,siglaComissao,path,,Sigla da comissão
+1293,codigo,path,,Código do parlamentar
+1294,ano,path,,Ano (com 4 dígitos) da proposição
+1295,numero,path,,Número da proposição
+1,registroAns,string,,Registro operadora na ANS
+2,razao_social,string,,Razão social
+3,nome_fantasia,string,,Nome Fantasia da operadora
+4,cnpj,string,,CNPJ da Operadora
+5,ativa,string,,"0 - ativa, 1 - inativa (Operadora Ativa ou Inativa)"
+6,page,integer,,"Paginação, número da página (Default value: 0)"
+7,size,integer,,"Valor máximo é 100, acima disto a API retornará erro 400. (Default value: 20)"
+8,sort,string,,"Default value: razao_social, Available values: registro_ans, cnpj, razao_social, nome_fantasia, classificacao_sigla, ativa"
+9,oSpec,object,,{}
+10,aSpec,object,,{}
+11,sigla,string,,Sigla
+12,nome,string,,Nome
+134,no_criterio_aposentadoria,VARCHAR(100),null,População Coberta - Descrição Nível 4
+135,qt_grupo_masc,"DECIMAL(10,0)",1,Quantidade Masculino
+136,vl_medio_base_calculo_masc,"DECIMAL(15,2)",1018.33,Média Base Cálculo / Benefício Masculino
+137,vl_idade_media_masc,"DECIMAL(5,2)",77,Idade Média Masculino
+138,vl_idade_med_aposent_masc,"DECIMAL(5,2)",70,Idade Média Aposentadoria Projetada Masculino
+139,vl_idade_med_adm_masc,"DECIMAL(5,2)",43,Idade Média Admissão Masculino
+140,vl_folha_mensal_masc,"DECIMAL(15,2)",1018.33,Valor Folha Mensal Masculino
+141,qt_grupo_fem,"DECIMAL(10,0)",3,Quantidade Feminino
+142,vl_medio_base_calculo_fem,"DECIMAL(15,2)",1034.2,Média Base Cálculo / Benefício Feminino
+143,vl_idade_media_fem,"DECIMAL(5,2)",52,Idade Média Feminino
+144,vl_idade_med_aposent_fem,"DECIMAL(5,2)",48,Idade Média Aposentadoria Projetada Feminino
+145,vl_idade_med_adm_fem,"DECIMAL(5,2)",34,Idade Média Admissão Feminino
+146,vl_folha_mensal_fem,"DECIMAL(15,2)",3102.6,Valor Folha Mensal Feminino
+147,cd_demonstrativo,"DECIMAL(6,0)",500000,Código Dem. Result. Atuarial
+148,ds_item_resultado,VARCHAR(200),ATIVOS GARANTIDORES DOS COMPROMISSOS DO PLANO DE BENEFÍCIOS,Descrição Dem. Result. Atuarial
+149,vl_geracao_atual,VARCHAR(8000) CHARACTER SET UNICODE,207554161.7,Valor da Geração Atual
+150,cd_hipotese_demografica,"DECIMAL(5,0)",10001,Codigo Hipoteses Dem. Econ. (tabela interna)
+151,ds_hipotese_demografica,VARCHAR(150) CHARACTER SET UNICODE,Projeção da Taxa de Juros Real para o Exercício,Descricao Hipoteses Dem. Econ.
+152,tp_unidade,VARCHAR(20) CHARACTER SET UNICODE,Percentual,Unidade
+153,te_hipotese_demografica,VARCHAR(1000) CHARACTER SET UNICODE,6,Hipoteses
+154,vl_previsto_dois_antes,VARCHAR(250),0,"Valor Previsto no DRAA de ""Ano da Data da Avaliacao -2"
+155,vl_ocorrido_dois_antes,VARCHAR(250),0,"Valor Ocorrido em ""Ano da Data da Avaliacao - 2"
+156,vl_previsto_um_antes,VARCHAR(250),0,"Valor Previsto no DRAA de ""Ano da Data da Avaliacao -1"
+157,vl_ocorrido_um_antes,VARCHAR(250),0,"Valor Ocorrido em ""Ano da Data da Avaliacao - 1"
+158,vl_previsto_ano_avaliacao,VARCHAR(250),6,"Valor Previsto no DRAA de ""Ano da Data da Avaliacao"
+159,vl_ocorrido_ano_avaliacao,VARCHAR(250),0,"Valor Ocorrido em ""Ano da Data da Avaliacao"
+160,vl_perspectiva_longo_prazo,VARCHAR(250),6,Perspectiva Longo Prazo
+161,te_justificativa_tecnica,VARCHAR(500) CHARACTER SET UNICODE,NÃO TEMOS A INFORMACAO,Justificativa Técnica
+162,cd_hipotese_biometrica_masc,"DECIMAL(4,0)",1211,Codigo Hipoteses Biometricas (tabela interna) - Masculina
+163,ds_hipotese_biometrica_masc,VARCHAR(100) CHARACTER SET UNICODE,IBGE 2016 - Ambos - Extrap MPS,Descricao da Tabua - Populacao Masculina
+164,cd_tipo_tabua_masc,"DECIMAL(4,0)",1000,Codigo Hipoteses Biometricas (tabela interna) - Masculina
+165,tp_tabua_masc,VARCHAR(100) CHARACTER SET UNICODE,Tábua de Mortalidade de Válido - Fase Laborativa,Tipo de Tabua - Masculina
+166,nr_even_prev_menos_dois_anos_m,"DECIMAL(15,2)",4.48,"Numero de Eventos Previstos pela Tabua Utilizada no DRAA de ""ANO DA DATA DA AVALIACAO -2"" - Masculina"
+167,nr_even_ocor_menos_dois_anos_m,"DECIMAL(15,2)",0,"Numero de Eventos Ocorridos em ""ANO DA DATA DA AVALIACAO -2"" - Masculina"
+168,nr_even_prev_menos_um_ano_m,"DECIMAL(15,2)",4.37,"Numero de Eventos Previstos pela Tabua Utilizada no DRAA de ""ANO DA DATA DA AVALIACAO -1"" - Masculina"
+169,nr_even_ocor_menos_um_ano_m,"DECIMAL(15,2)",0,"Numero de Eventos Ocorridos em ""ANO DA DATA DA AVALIAÇÂO -1"" - Masculina"
+170,nr_even_prev_menos_ano_aval_m,"DECIMAL(15,2)",4.43,"Numero de Eventos Previstos pela Tabua Utilizada no DRAA de ""ANO DA DATA DA AVALIACAO"" - Masculina"
+171,nr_even_ocor_menos_ano_aval_f,"DECIMAL(15,2)",,"Numero de Eventos Ocorridos em ""ANO DA DATA DA AVALIACAO"" - Feminina"
+172,ds_justificativa_tecnica_fem,VARCHAR(500) CHARACTER SET UNICODE,,Justificativa Tecnica para Eventuais Discrepancias - Feminina
+173,nr_notificacao,VARCHAR(14),,Número da Notificação
+174,no_tipo_documento,VARCHAR(50),,DRAA Tipo de Documento
+175,no_item_analise,VARCHAR(100),,Consistência - Segregação da Massa Item de Análise
+176,no_situacao_item_analise,VARCHAR(100),,Notificacao sem resposta. Prazo expirado. Situacao irregular Situação do Item de Análise
+177,dt_notificao,TIMESTAMP(6),,2018-06-14 10:37:21 Data da Notificação
+178,dt_preclusao,TIMESTAMP(6),,2018-07-16 00:00:00 Data da Preclusão
+179,dt_resposta,TIMESTAMP(6),,2018-07-16 00:00:00 Data da Resposta
+180,nr_prazo_resposta,INTEGER,,30 Prazo para Resposta (Dias)
+181,dt_competencia_base_cadastral,CHAR(14),,2006-01-01 00:00:00 Competência da Base Cadastral
+182,tp_poder,VARCHAR(50),,Legislativo Poder do Órgão
+183,tp_orgao,VARCHAR(50),,Administração Direta Tipo do Órgão
+184,cd_tema,"DECIMAL(5,0)",,31001 Codigo Interno Parecer Atuarial
+185,no_tema,VARCHAR(160) CHARACTER SET UNICODE,,Perspectivas de alteração futura no perfil e na composição da massa de segurados Tema
+186,te_parecer,VARCHAR(1000) CHARACTER SET UNICODE,,null Parecer
+187,tx_juros,"DECIMAL(3,0)",,6 Taxa de Juros
+188,vl_aporte,VARCHAR(8000) CHARACTER SET UNICODE,,11286673.04 Valor do Aporte
+189,vl_aliquotas,VARCHAR(8000) CHARACTER SET UNICODE,,63.77 Valor da Alíquota
+190,vl_base_calculo,VARCHAR(8000) CHARACTER SET UNICODE,,1154494503 Valor da Base de Cálculo
+191,vl_saldo_inicial,VARCHAR(8000) CHARACTER SET UNICODE,,9551894742 Valor do Saldo Inicial
+192,vl_pagamentos,VARCHAR(8000) CHARACTER SET UNICODE,,-736221144.7 Valor de Pagamentos
+193,vl_saldo_final,VARCHAR(8000) CHARACTER SET UNICODE,,9388787282 Saldo Final
+194,vl_juros,VARCHAR(8000) CHARACTER SET UNICODE,,18700561.95 Valor do Juros
+195,vl_amortizacao,VARCHAR(8000) CHARACTER SET UNICODE,,-238588921.9 Valor de Amortização
+196,nr_plano_benefico,"DECIMAL(6,0)",,110102 Codigo Interno do Plano de Beneficios
+197,no_beneficio_plano,VARCHAR(100) CHARACTER SET UNICODE,,"Aposentadorias Programadas (Por Idade, Tempo de Contribuição e Compulsória) Benefício do Plano"
+198,nr_regime_financeiro,"DECIMAL(3,0)",,104 Código Regimes e Métodos
+199,ds_regime_financeiro,VARCHAR(80) CHARACTER SET UNICODE,,REGIME FINANCEIRO DE CAPITALIZAÇÃO - AGREGADO Regime Financeiro e Método de Financiamento
+200,ds_metodo_financiamento,VARCHAR(500) CHARACTER SET UNICODE,,null Descrição do Método de Financiamento
+201,tp_contribuicao,VARCHAR(50),,Ente Federativo Tipo de Contribuição Normal
+202,vl_anual_base_calculo,VARCHAR(8000) CHARACTER SET UNICODE,,1055600301 Valor Anual Base Cálculo
+203,vl_aliquota,VARCHAR(8000) CHARACTER SET UNICODE,,12.2 Alíquota
+204,vl_contribuicao_esperada,VARCHAR(8000) CHARACTER SET UNICODE,,128783236.8 Contribuição Esperada Atual
+205,vl_aliquota_definida,VARCHAR(8000) CHARACTER SET UNICODE,,12.2 Alíquota Definida na Avaliacao Atuarial
+206,vl_contribuicao_definida,VARCHAR(8000) CHARACTER SET UNICODE,,128783236.8 Contribuição Esperada Definida
+207,in_retificacao,CHAR(5),,Sim Retificação
+208,in_motivo_notificacao,CHAR(5),,Sim Motivado por Notificacao
+209,no_previdencia_complementar,CHAR(5),,Não Implataou Previdencia Complementar
+210,no_beneficio_tesouro,CHAR(5),,Sim Beneficios Mantidos pelo Tesouro
+211,no_segregacao_massa,VARCHAR(50) CHARACTER SET UNICODE,,Instituida neste Exercicio ou Mantida Nome da Segregação em Massa
+212,dt_ingresso_segurado,VARCHAR(15),,2020-03-01 00:00:00 Data de Ingresso do Segurado
+213,nr_idade_segurado,CHAR(5),,20 Idade do Segurado
+214,in_segurado_servidor,CHAR(5),,Sim Condicao Segurado - Servidor
+215,in_segurado_aposentado,CHAR(5),,Sim Condicao Segurado - Aposentado
+216,in_segurado_pensionista,CHAR(5),,Sim Condicao Segurado - Pensionista
+217,no_atuario_responsavel,VARCHAR(100),,José da Silva Nome do Atuario Responsavel
+218,nr_registro_prof_atuario,VARCHAR(30),,123 Numero do Registro Profissional
+219,tp_documento,VARCHAR(40),,Lei Tipo de Documento
+220,nr_documento,VARCHAR(20),,7114 Numero do Documento
+221,dt_documento,VARCHAR(15),,2009-12-23 00:00:00 Data do Documento
+222,no_categoria_demonstrativo,VARCHAR(15),,Detalhe Tipo de Categoria
+223,vl_geracao_futura,VARCHAR(8000) CHARACTER SET UNICODE,,0 Valor da Geracao Futura
+224,ds_plano_segregacao,VARCHAR(30) CHARACTER SET UNICODE,,Previdenciário Nome do Plano de Segregação
+225,no_sujeito_passivo,VARCHAR(30) CHARACTER SET UNICODE,,"Ente Nome do Sujeito Passivo(Ente, Servidor, Aposentado, Pensionista, Custo Suplementar)"
+226,dt_inicio_vigencia,TIMESTAMP(6),,2021-03-31 14:15:05 Data de Iníco de Vigência da Alíquota
+227,dt_fim_vigencia,TIMESTAMP(6),,2021-03-31 14:15:05 Data de Fim de Vigência da Alíquota
+228,id_vigente,VARCHAR(15) CHARACTER SET UNICODE,,Vigente Identifica se a Alíquota está Vigente ou não
+229,tp_regime,VARCHAR(15) CHARACTER SET UNICODE,,RPPS Tipo de Regime
+230,nr_crp,VARCHAR(20) CHARACTER SET UNICODE,,931001-190583 Número de Emissão do CRP
+231,ds_situacao,VARCHAR(20) CHARACTER SET UNICODE,,Vigente Situação do CRP (Vigente ou Vencido)
+232,dt_emissao,VARCHAR(20) CHARACTER SET UNICODE,,2021-03-31 14:15:05 Data de Emissão do CRP
+233,dt_validade,VARCHAR(20) CHARACTER SET UNICODE,,2021-03-31 14:15:05 Data de Vencimento do CRP
+234,tp_crp,"""tp_crp VARCHAR(20) CHARACTER SET UNICODE""",,Judicial Tipo de Emissão do CRP (Administrativo ou Judicial)
+235,dt_inicio,TIMESTAMP(6),,2021-03-31 14:15:05 Data de Criação do Regime Previdenciário
+236,dt_fim,TIMESTAMP(6),,2021-03-31 14:15:05 Data de Extinção do Regime Previdenciário
+237,no_tipo_legislacao,VARCHAR(50) CHARACTER SET UNICODE,,"Lei Tipo de Documento (Decreto, Lei, etc)"
+238,nr_legislacao,VARCHAR(400) CHARACTER SET UNICODE,,700 Numero do Documento
+239,dt_legislacao,TIMESTAMP(6),,2021-03-31 14:15:05 Data de Criação da Legislação
+240,te_ementa,VARCHAR(8000) CHARACTER SET UNICODE,,Criação do RPPS Ementa da Legislação
+241,tp_vinculo_legislacao,VARCHAR(30) CHARACTER SET UNICODE,,Criação do Regime Tipo de Vínculo da Legislação

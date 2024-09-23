@@ -1,6 +1,6 @@
 create table if not exists apis.api_endpoints
 (
-    id               int auto_increment
+  id               int          not null
         primary key,
     api_id           int          not null,
     name             varchar(100) not null,
@@ -12,7 +12,7 @@ create table if not exists apis.api_endpoints
 
 create table if not exists apis.api_responses
 (
-    id               int auto_increment
+    id               int not null
         primary key,
     description      varchar(300)  null,
     metadata         varchar(4000) null,
@@ -22,7 +22,7 @@ create table if not exists apis.api_responses
 
 create table if not exists apis.api_tags
 (
-    id     int auto_increment
+    id     int not null
         primary key,
     api_id int not null,
     tag_id int not null
@@ -30,7 +30,7 @@ create table if not exists apis.api_tags
 
 create table if not exists apis.apis
 (
-    id              int auto_increment
+    id               int not null
         primary key,
     name            varchar(100) not null,
     description     varchar(300) not null,
@@ -45,7 +45,7 @@ create table if not exists apis.apis
 
 create table if not exists apis.endpoint_parameters
 (
-    id           int auto_increment
+    id            int not null
         primary key,
     endpoints_id int  not null,
     parameter_id int  not null,
@@ -54,7 +54,7 @@ create table if not exists apis.endpoint_parameters
 
 create table if not exists apis.institutions
 (
-    id      int auto_increment
+    id       int not null
         primary key,
     name    varchar(100) not null,
     acronym varchar(10)  not null
@@ -62,7 +62,7 @@ create table if not exists apis.institutions
 
 create table if not exists apis.parameters
 (
-    id          int auto_increment
+    id           int not null
         primary key,
     name        varchar(100) not null,
     type        varchar(200) not null,
@@ -72,9 +72,8 @@ create table if not exists apis.parameters
 
 create table if not exists apis.tags
 (
-    id          int auto_increment
+    id           int not null
         primary key,
     name        varchar(100) not null,
     description varchar(300) null
 );
-
